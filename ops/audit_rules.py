@@ -21,8 +21,17 @@ def main():
             except Exception as exc:
                 out['parse_fail']+=1; summary['failures'].append({'rule_id':row.get('rule_id'),'error':str(exc)})
             for test in row.get('tests',[]):
-                if test.get('kind')=='source_scheme_replay_with_constructed_R_group' and test.get('status')=='pass':
-                    summary['source_transcribed_replays']+=1
+                if test.get('kind')=='source_scheme_replay_with_constructed_R_group':
+                    if test.get('status')=='pass': summary['source_transcribed_replays']+=1
+                    try:
+                        mols=[Chem.MolFromSmiles(s) for s in test['reactants']]
+                        observed={Chem.MolToSmiles(prod,True) for ps in rxn.RunReactants(tuple(mols)) for prod in ps}
+                        expected={Chem.MolToSmiles(Chem.MolFromSmiles(s),True) for s in test['products']}
+                        test['replay_check']='pass' if expected <= observed else 'fail'
+                        if test['replay_check']=='fail':
+                            summary['failures'].append({'rule_id':row.get('rule_id'),'error':'expected product not observed','expected':sorted(expected),'observed':sorted(observed)})
+                    except Exception as exc:
+                        test['replay_check']='fail'; summary['failures'].append({'rule_id':row.get('rule_id'),'error':str(exc)})
         summary['files'][path.name]=out
     summary['rules_total']=sum(x['total'] for x in summary['files'].values())
     summary['parse_pass']=sum(x['parse_pass'] for x in summary['files'].values())
