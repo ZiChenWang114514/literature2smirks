@@ -27,6 +27,32 @@
       "applicability": {"reported_scope": ["mainly primary alkyl bromides and iodides"], "exclusions": ["Aryl and alkenyl halides are described as unreactive; secondary and tertiary halides may eliminate or fail"], "selectivity": []},
       "tests": [{"kind": "source_scheme_replay_with_constructed_R_group", "status": "pass", "reactants": ["COP(OC)OC", "CCBr"], "products": ["CCP(=O)(OC)OC"]}],
       "limitations": ["The R groups are constructed from the generic scheme and are not claimed as a specific reported substrate example.", "Leaving-group and displaced alkoxy maps are deleted; strict SMIRKS audit remains pending."]
+    },
+    {
+      "rule_id": "LSM-SRC-003",
+      "name": "Aza-Wittig reaction — imine formation",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[N:1]=[P:2].[C:3]=[O:4]>>[N:1]=[C:3]",
+      "source": {"book": "Strategic Applications of Named Reactions in Organic Synthesis", "authors": "Laszlo Kurti; Barbara Czako", "pdf_pages": [78, 79], "printed_pages": [24, 25], "entry_id": "KCC012", "scheme": "iminophosphorane plus carbonyl to Schiff base"},
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "PDF page 78 shows an iminophosphorane reacting with a carbonyl compound to release triphenylphosphine oxide and form a Schiff base.",
+      "conditions": {"reagents": ["iminophosphorane"], "workup": null},
+      "applicability": {"reported_scope": ["aldehydes and ketones; intramolecular heterocycle formation is discussed"], "exclusions": ["The upstream azide-to-iminophosphorane Staudinger step is not included"], "selectivity": []},
+      "tests": [{"kind": "source_scheme_replay_with_constructed_R_group", "status": "pass", "reactants": ["N=P", "CC(C)=O"], "products": ["CC(C)=N"]}],
+      "limitations": ["PPh3O and leaving groups are not represented as products; constructed small-molecule reactants are used for replay."]
+    },
+    {
+      "rule_id": "LSM-SRC-004",
+      "name": "Baeyer–Villiger oxidation — ketone to ester",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])([C:3])[C:4].[O:5][O:6]>>[C:1](=[O:2])([C:3])[O:5][C:4]",
+      "source": {"book": "Strategic Applications of Named Reactions in Organic Synthesis", "authors": "Laszlo Kurti; Barbara Czako", "pdf_pages": [82, 83], "printed_pages": [28, 29], "entry_id": "KCC014", "scheme": "peroxyacid oxidation of ketone"},
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "PDF page 82 gives the ketone-to-ester/lactone transformation with a peroxyacid and describes migratory aptitude and retention at the migrating center.",
+      "conditions": {"reagents": ["peroxyacid"], "workup": null},
+      "applicability": {"reported_scope": ["acyclic ketones and cyclic ketones"], "exclusions": ["Regioselectivity and migratory aptitude are not encoded by this minimal graph rule"], "selectivity": ["migration order is substrate-dependent"]},
+      "tests": [{"kind": "source_scheme_replay_with_constructed_R_group", "status": "pass", "reactants": ["CC(=O)C", "OO"], "products": ["COC(C)=O"]}],
+      "limitations": ["The peroxide is a minimal oxygen donor proxy rather than a specific peroxyacid; regioselectivity and acid by-product are not represented."]
     }
   ]
 }
