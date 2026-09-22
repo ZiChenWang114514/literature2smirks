@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "description": "源图核对中的第一条实例；其余条目仍在逐图转录。",
+  "rules": [
+    {
+      "rule_id": "LSM-SRC-001",
+      "name": "Acetoacetic ester synthesis — C2 monoalkylation demo",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[O:1]=[C:2]([CH3:3])[CH2:4][C:5](=[O:6])[O:7][C:8].[C:9][Br:10]>>[O:1]=[C:2]([CH3:3])[CH:4]([C:9])[C:5](=[O:6])[O:7][C:8]",
+      "source": {"book": "Strategic Applications of Named Reactions in Organic Synthesis", "authors": "Laszlo Kurti; Barbara Czako", "pdf_pages": [56, 57], "printed_pages": [2, 3], "entry_id": "KCC001", "scheme": "general C2 monoalkylation pathway"},
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "PDF page 56 rendered scheme and explanatory text; alkylating agent is represented generically as R2-X, instantiated here with bromoethane for a deterministic replay.",
+      "conditions": {"reagents": ["base (one equivalent)"], "workup": null},
+      "applicability": {"reported_scope": ["C2 alkylation of acetoacetic esters with primary or secondary alkyl, allyl, or benzyl electrophiles"], "exclusions": ["This record does not encode the subsequent hydrolysis/decarboxylation step"], "selectivity": []},
+      "tests": [{"kind": "source_scheme_replay_with_constructed_R_group", "status": "pass", "reactants": ["CC(=O)CC(=O)OC", "CCBr"], "products": ["CCC(C(C)=O)C(=O)OC"]}],
+      "limitations": ["The book scheme uses a generic R2-X drawing; the bromoethane instance is constructed for replay and is not claimed as a reported substrate example.", "Leaving-group atom map 10 is intentionally deleted from the product; strict SMIRKS audit remains pending."]
+    }
+  ]
+}

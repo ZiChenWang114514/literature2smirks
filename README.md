@@ -1,6 +1,8 @@
-# Literature2SMIRKS
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Literature2SMIRKS：把文献反应图变成可追溯、可测试的反应规则">
+</p>
 
-Literature2SMIRKS 是一个面向有机合成文献的反应规则抽取 skill：从论文、补充信息或反应书籍中定位反应图和文字通式，建立结构化证据，再输出带来源、适用范围和验证状态的 RDKit reaction SMARTS。
+Literature2SMIRKS 面向需要把有机合成文献转成反应规则的研究者：它先固定来源和页码，再恢复反应结构、建立原子映射，最后用 RDKit 回放并报告规则边界。
 
 ## 当前进度
 
@@ -9,6 +11,16 @@ Literature2SMIRKS 是一个面向有机合成文献的反应规则抽取 skill�
 - 已建立前 100 条规则 demo scaffold；100/100 通过 RDKit 解析与正向 smoke test。
 - 当前 100 条的状态是 `constructed_from_general_scheme`。这表示它们由书中通式和反应类别重建，用于开发验证，不等同于逐图转录或文献实例回放。
 - 正式发布前仍需对源图结构进行视觉核对、补充 `source_transcribed` 实例、检查原子映射、立体化学和范围外匹配。
+
+## 最小运行路径
+
+```powershell
+python ops/prepare_source.py "C:\path\to\book.pdf"
+python ops/read_source.py 56-65 --render
+python ops/validate_demo.py
+```
+
+先看 `data/rules/rules_demo.json` 的字段和状态，再把源图核对过的实例加入 `source_transcribed` 规则集。模板解析成功只证明软件能执行这一结构变换，不证明论文中的实验条件或底物范围。
 
 ## 目录
 
@@ -21,14 +33,6 @@ ops/read_source.py             按页读取或渲染源文件
 ops/validate_demo.py            RDKit 解析与回放 smoke test
 docs/schema.md                 数据状态与证据语义
 private/                       本地源派生物，已 gitignore
-```
-
-## 使用
-
-```powershell
-python ops/prepare_source.py "C:\path\to\book.pdf"
-python ops/read_source.py 56-65 --render
-python ops/validate_demo.py
 ```
 
 规则字段中的 `dialect` 必须保留。RDKit reaction SMARTS 与严格 Daylight SMIRKS 有语义差异；本项目不会用名称替代方言声明，也不会把模板解析成功解释为实验可行性证明。

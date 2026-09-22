@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Literature2SMIRKS</title>
+  <desc id="desc">A source-grounded pipeline from literature schemes to validated reaction SMARTS.</desc>
+  <rect width="1200" height="360" rx="28" fill="#101316"/>
+  <path d="M56 292H1144" stroke="#3a424a" stroke-width="2"/>
+  <g font-family="Segoe UI, PingFang SC, sans-serif" fill="#f2f0ea">
+    <text x="64" y="72" font-size="18" fill="#8eb7a6" letter-spacing="3">CHEMISTRY / EVIDENCE / EXECUTION</text>
+    <text x="64" y="132" font-size="54" font-weight="700">Literature2SMIRKS</text>
+    <text x="66" y="174" font-size="24" fill="#c3c9c9">把文献反应图变成可追溯、可测试的反应规则。</text>
+    <text x="66" y="220" font-size="16" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" fill="#9ca7aa">source page  →  mapped graph  →  RDKit replay</text>
+  </g>
+  <g transform="translate(760 62)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <rect x="0" y="0" width="350" height="190" rx="14" fill="#171c20" stroke="#536069"/>
+    <text x="24" y="34" font-size="15" fill="#8eb7a6">RULE / LSM-001</text>
+    <text x="24" y="72" font-size="20" fill="#f2f0ea">[C:1]=[O:2]</text>
+    <text x="24" y="108" font-size="20" fill="#d7a66f">&gt;&gt;</text>
+    <text x="80" y="108" font-size="20" fill="#f2f0ea">[C:1][O:2]</text>
+    <text x="24" y="154" font-size="14" fill="#a9b2b4">dialect: rdkit_reaction_smarts</text>
+    <text x="24" y="176" font-size="14" fill="#a9b2b4">evidence: source_transcribed</text>
+  </g>
+  <g fill="#d7a66f">
+    <circle cx="762" cy="304" r="5"/><circle cx="786" cy="304" r="5"/><circle cx="810" cy="304" r="5"/>
+  </g>
+</svg>
