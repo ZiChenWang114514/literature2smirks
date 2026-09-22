@@ -1,0 +1,5 @@
+import json
+from pathlib import Path
+p=Path('ops/progress.json'); d=json.loads(p.read_text(encoding='utf-8')); d.update({'phase':'demo_rules_validated_source_transcription_next','rules_tested':100,'last_update':'2026-09-22','source_inventory_complete':True,'demo_validation':'100/100 RDKit parser_and_smoke pass; RDKit unmapped leaving-group warnings retained for review'}); p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8')
+with open('docs/development-log.md','a',encoding='utf-8') as f:
+ f.write('\n## 2026-09-22 · 恢复与第一轮 demo\n\n- 从持久化状态恢复；未重新生成源 PDF 派生物。\n- `data/book_index.json` 已生成 250 条条目，PDF 第 56 页对应印刷第 2 页。\n- `data/rules/rules_demo.json` 已生成前 100 个条目，全部含 `dialect=rdkit_reaction_smarts`、书目页码和限制说明。\n- `ops/validate_demo.py`：100/100 通过 `ReactionFromSmarts` 与至少一个 `RunReactants` product-set smoke test。RDKit 对未出现在产品侧的 mapped leaving groups 发出警告；该警告被保留为后续严格映射审查项，不计为文献验证通过。\n- 已渲染并准备视觉核对 acetoacetic ester、acyloin、ene、aldol、alkene metathesis 前五个章节（PDF 56–65）。\n- 规则抽取下一步是从这些页的 scheme 逐图转录至少一批 `source_transcribed` 实例，并替换相应 demo 条目。\n')

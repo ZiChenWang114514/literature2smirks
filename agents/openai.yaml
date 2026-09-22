@@ -1,0 +1,4 @@
+interface:
+  display_name: Literature2SMIRKS
+  short_description: 从化学文献提取可追溯、可执行的反应规则
+  default_prompt: 使用 Literature2SMIRKS 从给定文献的反应图和实例提取 RDKit reaction SMARTS；保留页码、结构证据、条件、适用范围和验证状态。

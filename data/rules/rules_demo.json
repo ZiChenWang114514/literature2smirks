@@ -1,0 +1,3513 @@
+{
+  "schema_version": "0.1",
+  "description": "100-entry executable scaffold; not yet the final source-transcribed library.",
+  "rules": [
+    {
+      "rule_id": "LSM-001",
+      "name": "ACETOACETIC ESTER SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[OH:3].[O:4][C:5]>>[C:1](=[O:2])[O:4][C:5]",
+      "template_family": "esterification",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          56,
+          57
+        ],
+        "printed_pages": [
+          2,
+          3
+        ],
+        "entry_id": "KCC001"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-002",
+      "name": "ACYLOIN CONDENSATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2]>>[C:1][O:2]",
+      "template_family": "carbonyl_reduction",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          58,
+          59
+        ],
+        "printed_pages": [
+          4,
+          5
+        ],
+        "entry_id": "KCC002"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-003",
+      "name": "ALDER (ENE) REACTION (HYDRO-ALLYL ADDITION)",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          60,
+          61
+        ],
+        "printed_pages": [
+          6,
+          7
+        ],
+        "entry_id": "KCC003"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-004",
+      "name": "ALDOL REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          62,
+          63
+        ],
+        "printed_pages": [
+          8,
+          9
+        ],
+        "entry_id": "KCC004"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-005",
+      "name": "ALKENE (OLEFIN) METATHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          64,
+          65
+        ],
+        "printed_pages": [
+          10,
+          11
+        ],
+        "entry_id": "KCC005"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-006",
+      "name": "ALKYNE METATHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]>>[C:1]-[C:2]",
+      "template_family": "alkene_hydrogenation",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          66,
+          67
+        ],
+        "printed_pages": [
+          12,
+          13
+        ],
+        "entry_id": "KCC006"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-007",
+      "name": "AMADORI REACTION / REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          68,
+          69
+        ],
+        "printed_pages": [
+          14,
+          15
+        ],
+        "entry_id": "KCC007"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-008",
+      "name": "ARBUZOV REACTION (MICHAELIS-ARBUZOV REACTION)",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[Cl,Br,I:2].[N,O,S:3]>>[C:1]-[N,O,S:3]",
+      "template_family": "substitution",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          70,
+          71
+        ],
+        "printed_pages": [
+          16,
+          17
+        ],
+        "entry_id": "KCC008"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-009",
+      "name": "ARNDT-EISTERT HOMOLOGATION / SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[P:4]>>[C:1]=[C:3]",
+      "template_family": "carbonyl_olefination",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          72,
+          73
+        ],
+        "printed_pages": [
+          18,
+          19
+        ],
+        "entry_id": "KCC009"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-010",
+      "name": "AZA-CLAISEN REARRANGEMENT (3-AZA-COPE REARRANGEMENT)",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          74,
+          75
+        ],
+        "printed_pages": [
+          20,
+          21
+        ],
+        "entry_id": "KCC010"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-011",
+      "name": "AZA-COPE REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          76,
+          77
+        ],
+        "printed_pages": [
+          22,
+          23
+        ],
+        "entry_id": "KCC011"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-012",
+      "name": "AZA-WITTIG REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[P:4]>>[C:1]=[C:3]",
+      "template_family": "carbonyl_olefination",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          78,
+          79
+        ],
+        "printed_pages": [
+          24,
+          25
+        ],
+        "entry_id": "KCC012"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-013",
+      "name": "AZA-[2,3]-WITTIG REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[P:4]>>[C:1]=[C:3]",
+      "template_family": "carbonyl_olefination",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          80,
+          81
+        ],
+        "printed_pages": [
+          26,
+          27
+        ],
+        "entry_id": "KCC013"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-014",
+      "name": "BAEYER-VILLIGER OXIDATION/REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[OH:3].[O:4][C:5]>>[C:1](=[O:2])[O:4][C:5]",
+      "template_family": "esterification",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          82,
+          83
+        ],
+        "printed_pages": [
+          28,
+          29
+        ],
+        "entry_id": "KCC014"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-015",
+      "name": "BAKER-VENKATARAMAN REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[Cl,Br:2].[I:3]>>[C:1]-[I:3]",
+      "template_family": "halide_exchange",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          84,
+          85
+        ],
+        "printed_pages": [
+          30,
+          31
+        ],
+        "entry_id": "KCC015"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-016",
+      "name": "BALDWIN’S RULES / GUIDELINES FOR RING-CLOSING REACTIONS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[Cl:3].[N:4]>>[C:1](=[O:2])[N:4]",
+      "template_family": "amide",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          86,
+          87
+        ],
+        "printed_pages": [
+          32,
+          33
+        ],
+        "entry_id": "KCC016"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-017",
+      "name": "BALZ-SCHIEMANN REACTION (SCHIEMANN REACTION)",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[Cl,Br,I:2].[N,O,S:3]>>[C:1]-[N,O,S:3]",
+      "template_family": "substitution",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          88,
+          89
+        ],
+        "printed_pages": [
+          34,
+          35
+        ],
+        "entry_id": "KCC017"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-018",
+      "name": "BAMFORD-STEVENS-SHAPIRO OLEFINATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[P:4]>>[C:1]=[C:3]",
+      "template_family": "carbonyl_olefination",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          90,
+          91
+        ],
+        "printed_pages": [
+          36,
+          37
+        ],
+        "entry_id": "KCC018"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-019",
+      "name": "BARBIER COUPLING REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3][Mg]>>[C:1]([O:2])[C:3]",
+      "template_family": "grignard",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          92,
+          93
+        ],
+        "printed_pages": [
+          38,
+          39
+        ],
+        "entry_id": "KCC019"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-020",
+      "name": "BARTOLI INDOLE SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Cl,Br:2].[N,O:3]>>[c:1]-[N,O:3]",
+      "template_family": "nucleophilic_aromatic",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          94,
+          95
+        ],
+        "printed_pages": [
+          40,
+          41
+        ],
+        "entry_id": "KCC020"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-021",
+      "name": "BARTON NITRITE ESTER REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[OH:3].[O:4][C:5]>>[C:1](=[O:2])[O:4][C:5]",
+      "template_family": "esterification",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          96,
+          97
+        ],
+        "printed_pages": [
+          42,
+          43
+        ],
+        "entry_id": "KCC021"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-022",
+      "name": "BARTON RADICAL DECARBOXYLATION REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]=[C:4].[C:5]=[C:6]>>[C:1]1-[C:2]=[C:3]-[C:4]-[C:5]-[C:6]-1",
+      "template_family": "diels_alder",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          98,
+          99
+        ],
+        "printed_pages": [
+          44,
+          45
+        ],
+        "entry_id": "KCC022"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 4,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-023",
+      "name": "BARTON-McCOMBIE RADICAL DEOXYGENATION REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[Cl,Br:2].[I:3]>>[C:1]-[I:3]",
+      "template_family": "halide_exchange",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          100,
+          101
+        ],
+        "printed_pages": [
+          46,
+          47
+        ],
+        "entry_id": "KCC023"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-024",
+      "name": "BAYLIS-HILLMAN REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[Cl,Br:2].[I:3]>>[C:1]-[I:3]",
+      "template_family": "halide_exchange",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          102,
+          103
+        ],
+        "printed_pages": [
+          48,
+          49
+        ],
+        "entry_id": "KCC024"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-025",
+      "name": "BECKMANN REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          104,
+          105
+        ],
+        "printed_pages": [
+          50,
+          51
+        ],
+        "entry_id": "KCC025"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-026",
+      "name": "BENZILIC ACID REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2]>>[C:1][O:2]",
+      "template_family": "carbonyl_reduction",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          106,
+          107
+        ],
+        "printed_pages": [
+          52,
+          53
+        ],
+        "entry_id": "KCC026"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-027",
+      "name": "BENZOIN AND RETRO-BENZOIN CONDENSATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          108,
+          109
+        ],
+        "printed_pages": [
+          54,
+          55
+        ],
+        "entry_id": "KCC027"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-028",
+      "name": "BERGMAN CYCLOAROMATIZATION REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[OH:3].[O:4][C:5]>>[C:1](=[O:2])[O:4][C:5]",
+      "template_family": "esterification",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          110,
+          111
+        ],
+        "printed_pages": [
+          56,
+          57
+        ],
+        "entry_id": "KCC028"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-029",
+      "name": "BIGINELLI REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[OH:3].[O:4][C:5]>>[C:1](=[O:2])[O:4][C:5]",
+      "template_family": "esterification",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          112,
+          113
+        ],
+        "printed_pages": [
+          58,
+          59
+        ],
+        "entry_id": "KCC029"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-030",
+      "name": "BIRCH REDUCTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]>>[C:1]-[C:2]",
+      "template_family": "alkene_hydrogenation",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          114,
+          115
+        ],
+        "printed_pages": [
+          60,
+          61
+        ],
+        "entry_id": "KCC030"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-031",
+      "name": "BISCHLER-NAPIERALSKI ISOQUINOLINE SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Cl,Br:2].[N,O:3]>>[c:1]-[N,O:3]",
+      "template_family": "nucleophilic_aromatic",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          116,
+          117
+        ],
+        "printed_pages": [
+          62,
+          63
+        ],
+        "entry_id": "KCC031"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-032",
+      "name": "BROOK REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2].[O:3]>>[C:1]1[O:3][C:2]1",
+      "template_family": "epoxidation",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          118,
+          119
+        ],
+        "printed_pages": [
+          64,
+          65
+        ],
+        "entry_id": "KCC032"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-033",
+      "name": "BROWN HYDROBORATION REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]>>[C:1]-[C:2]",
+      "template_family": "alkene_hydrogenation",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          120,
+          121
+        ],
+        "printed_pages": [
+          66,
+          67
+        ],
+        "entry_id": "KCC033"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-034",
+      "name": "BUCHNER METHOD OF RING EXPANSION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2].[O:3]>>[C:1]1[O:3][C:2]1",
+      "template_family": "epoxidation",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          122,
+          123
+        ],
+        "printed_pages": [
+          68,
+          69
+        ],
+        "entry_id": "KCC034"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-035",
+      "name": "BUCHWALD-HARTWIG CROSS-COUPLING",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Br,I:2].[c:3]-[B:4]>>[c:1]-[c:3]",
+      "template_family": "cross_coupling",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          124,
+          125
+        ],
+        "printed_pages": [
+          70,
+          71
+        ],
+        "entry_id": "KCC035"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-036",
+      "name": "BURGESS DEHYDRATION REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          126,
+          127
+        ],
+        "printed_pages": [
+          72,
+          73
+        ],
+        "entry_id": "KCC036"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-037",
+      "name": "CANNIZZARO REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2]>>[C:1][O:2]",
+      "template_family": "carbonyl_reduction",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          128,
+          129
+        ],
+        "printed_pages": [
+          74,
+          75
+        ],
+        "entry_id": "KCC037"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-038",
+      "name": "CARROLL REARRANGEMENT (KIMEL-COPE REARRANGEMENT)",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          130,
+          131
+        ],
+        "printed_pages": [
+          76,
+          77
+        ],
+        "entry_id": "KCC038"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-039",
+      "name": "CASTRO-STEPHENS COUPLING",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Br,I:2].[c:3]-[B:4]>>[c:1]-[c:3]",
+      "template_family": "cross_coupling",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          132,
+          133
+        ],
+        "printed_pages": [
+          78,
+          79
+        ],
+        "entry_id": "KCC039"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-040",
+      "name": "CHICHIBABIN AMINATION REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          134,
+          135
+        ],
+        "printed_pages": [
+          80,
+          81
+        ],
+        "entry_id": "KCC040"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-041",
+      "name": "CHUGAEV ELIMINATION REACTION (XANTHATE ESTER PYROLYSIS)",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[OH:3].[O:4][C:5]>>[C:1](=[O:2])[O:4][C:5]",
+      "template_family": "esterification",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          136,
+          137
+        ],
+        "printed_pages": [
+          82,
+          83
+        ],
+        "entry_id": "KCC041"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-042",
+      "name": "CIAMICIAN-DENNSTEDT REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Br,I:2].[C:3]=[C:4]>>[c:1]-[C:3]=[C:4]",
+      "template_family": "heck",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          138,
+          139
+        ],
+        "printed_pages": [
+          84,
+          85
+        ],
+        "entry_id": "KCC042"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-043",
+      "name": "CLAISEN CONDENSATION / CLAISEN REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          140,
+          141
+        ],
+        "printed_pages": [
+          86,
+          87
+        ],
+        "entry_id": "KCC043"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-044",
+      "name": "CLAISEN REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          142,
+          143
+        ],
+        "printed_pages": [
+          88,
+          89
+        ],
+        "entry_id": "KCC044"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-045",
+      "name": "CLAISEN-IRELAND REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          144,
+          145
+        ],
+        "printed_pages": [
+          90,
+          91
+        ],
+        "entry_id": "KCC045"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-046",
+      "name": "CLEMMENSEN REDUCTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2]>>[C:1][O:2]",
+      "template_family": "carbonyl_reduction",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          146,
+          147
+        ],
+        "printed_pages": [
+          92,
+          93
+        ],
+        "entry_id": "KCC046"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-047",
+      "name": "COMBES QUINOLINE SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Cl,Br:2].[N,O:3]>>[c:1]-[N,O:3]",
+      "template_family": "nucleophilic_aromatic",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          148,
+          149
+        ],
+        "printed_pages": [
+          94,
+          95
+        ],
+        "entry_id": "KCC047"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-048",
+      "name": "COPE ELIMINATION / COPE REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          150,
+          151
+        ],
+        "printed_pages": [
+          96,
+          97
+        ],
+        "entry_id": "KCC048"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-049",
+      "name": "COPE REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          152,
+          153
+        ],
+        "printed_pages": [
+          98,
+          99
+        ],
+        "entry_id": "KCC049"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-050",
+      "name": "COREY-BAKSHI-SHIBATA REDUCTION (CBS REDUCTION)",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2]>>[C:1][O:2]",
+      "template_family": "carbonyl_reduction",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          154,
+          155
+        ],
+        "printed_pages": [
+          100,
+          101
+        ],
+        "entry_id": "KCC050"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-051",
+      "name": "COREY-CHAYKOVSKY EPOXIDATION AND CYCLOPROPANATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1][OH:2]>>[C:1]=[O:2]",
+      "template_family": "oxidation_alcohol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          156,
+          157
+        ],
+        "printed_pages": [
+          102,
+          103
+        ],
+        "entry_id": "KCC051"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-052",
+      "name": "COREY-FUCHS ALKYNE SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]#[C:2]>>[C:1]=[C:2]",
+      "template_family": "alkyne_hydrogenation",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          158,
+          159
+        ],
+        "printed_pages": [
+          104,
+          105
+        ],
+        "entry_id": "KCC052"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-053",
+      "name": "COREY-KIM OXIDATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1][OH:2]>>[C:1]=[O:2]",
+      "template_family": "oxidation_alcohol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          160,
+          161
+        ],
+        "printed_pages": [
+          106,
+          107
+        ],
+        "entry_id": "KCC053"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-054",
+      "name": "COREY-NICOLAOU MACROLACTONIZATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[OH:3].[O:4][C:5]>>[C:1](=[O:2])[O:4][C:5]",
+      "template_family": "esterification",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          162,
+          163
+        ],
+        "printed_pages": [
+          108,
+          109
+        ],
+        "entry_id": "KCC054"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-055",
+      "name": "COREY-WINTER OLEFINATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])-[O:3]>>[C:1]",
+      "template_family": "decarboxylation",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          164,
+          165
+        ],
+        "printed_pages": [
+          110,
+          111
+        ],
+        "entry_id": "KCC055"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-056",
+      "name": "CORNFORTH REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2]>>[C:1][O:2]",
+      "template_family": "carbonyl_reduction",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          166,
+          167
+        ],
+        "printed_pages": [
+          112,
+          113
+        ],
+        "entry_id": "KCC056"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-057",
+      "name": "CRIEGEE OXIDATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1][OH:2]>>[C:1]=[O:2]",
+      "template_family": "oxidation_alcohol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          168,
+          169
+        ],
+        "printed_pages": [
+          114,
+          115
+        ],
+        "entry_id": "KCC057"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-058",
+      "name": "CURTIUS REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[Cl:3].[N:4]>>[C:1](=[O:2])[N:4]",
+      "template_family": "amide",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          170,
+          171
+        ],
+        "printed_pages": [
+          116,
+          117
+        ],
+        "entry_id": "KCC058"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-059",
+      "name": "DAKIN OXIDATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1][OH:2]>>[C:1]=[O:2]",
+      "template_family": "oxidation_alcohol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          172,
+          173
+        ],
+        "printed_pages": [
+          118,
+          119
+        ],
+        "entry_id": "KCC059"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-060",
+      "name": "DAKIN-WEST REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1][OH:2]>>[C:1]=[O:2]",
+      "template_family": "oxidation_alcohol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          174,
+          175
+        ],
+        "printed_pages": [
+          120,
+          121
+        ],
+        "entry_id": "KCC060"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-061",
+      "name": "DANHEISER BENZANNULATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Br,I:2].[c:3]-[B:4]>>[c:1]-[c:3]",
+      "template_family": "cross_coupling",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          176,
+          177
+        ],
+        "printed_pages": [
+          122,
+          123
+        ],
+        "entry_id": "KCC061"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-062",
+      "name": "DANHEISER CYCLOPENTENE ANNULATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          178,
+          179
+        ],
+        "printed_pages": [
+          124,
+          125
+        ],
+        "entry_id": "KCC062"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-063",
+      "name": "DANISHEFSKY’S DIENE CYCLOADDITION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          180,
+          181
+        ],
+        "printed_pages": [
+          126,
+          127
+        ],
+        "entry_id": "KCC063"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-064",
+      "name": "DARZENS GLYCIDIC ESTER CONDENSATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[OH:3].[O:4][C:5]>>[C:1](=[O:2])[O:4][C:5]",
+      "template_family": "esterification",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          182,
+          183
+        ],
+        "printed_pages": [
+          128,
+          129
+        ],
+        "entry_id": "KCC064"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-065",
+      "name": "DAVIS’ OXAZIRIDINE OXIDATIONS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1][OH:2]>>[C:1]=[O:2]",
+      "template_family": "oxidation_alcohol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          184,
+          185
+        ],
+        "printed_pages": [
+          130,
+          131
+        ],
+        "entry_id": "KCC065"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-066",
+      "name": "DE MAYO CYCLOADDITION (ENONE-ALKENE [2+2] PHOTOCYCLOADDITION)",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          186,
+          187
+        ],
+        "printed_pages": [
+          132,
+          133
+        ],
+        "entry_id": "KCC066"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-067",
+      "name": "DEMJANOV AND TIFFENEAU-DEMJANOV REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          188,
+          189
+        ],
+        "printed_pages": [
+          134,
+          135
+        ],
+        "entry_id": "KCC067"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-068",
+      "name": "DESS-MARTIN OXIDATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1][OH:2]>>[C:1]=[O:2]",
+      "template_family": "oxidation_alcohol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          190,
+          191
+        ],
+        "printed_pages": [
+          136,
+          137
+        ],
+        "entry_id": "KCC068"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-069",
+      "name": "DIECKMANN CONDENSATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          192,
+          193
+        ],
+        "printed_pages": [
+          138,
+          139
+        ],
+        "entry_id": "KCC069"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-070",
+      "name": "DIELS-ALDER CYCLOADDITION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]=[C:4].[C:5]=[C:6]>>[C:1]1-[C:2]=[C:3]-[C:4]-[C:5]-[C:6]-1",
+      "template_family": "diels_alder",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          194,
+          195
+        ],
+        "printed_pages": [
+          140,
+          141
+        ],
+        "entry_id": "KCC070"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 4,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-071",
+      "name": "DIENONE-PHENOL REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[OH:3].[O:4][C:5]>>[C:1](=[O:2])[O:4][C:5]",
+      "template_family": "esterification",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          196,
+          197
+        ],
+        "printed_pages": [
+          142,
+          143
+        ],
+        "entry_id": "KCC071"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-072",
+      "name": "DIMROTH REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          198,
+          199
+        ],
+        "printed_pages": [
+          144,
+          145
+        ],
+        "entry_id": "KCC072"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-073",
+      "name": "DOERING-LAFLAMME ALLENE SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          200,
+          201
+        ],
+        "printed_pages": [
+          146,
+          147
+        ],
+        "entry_id": "KCC073"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-074",
+      "name": "DOTZ BENZANNULATION REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3][Mg]>>[C:1]([O:2])[C:3]",
+      "template_family": "grignard",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          202,
+          203
+        ],
+        "printed_pages": [
+          148,
+          149
+        ],
+        "entry_id": "KCC074"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-075",
+      "name": "ENDERS SAMP/RAMP HYDRAZONE ALKYLATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Br,I:2].[C:3]=[C:4]>>[c:1]-[C:3]=[C:4]",
+      "template_family": "heck",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          204,
+          205
+        ],
+        "printed_pages": [
+          150,
+          151
+        ],
+        "entry_id": "KCC075"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-076",
+      "name": "ENYNE METATHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]>>[C:1]-[C:2]",
+      "template_family": "alkene_hydrogenation",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          206,
+          207
+        ],
+        "printed_pages": [
+          152,
+          153
+        ],
+        "entry_id": "KCC076"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-077",
+      "name": "ESCHENMOSER METHENYLATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          208,
+          209
+        ],
+        "printed_pages": [
+          154,
+          155
+        ],
+        "entry_id": "KCC077"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-078",
+      "name": "ESCHENMOSER-CLAISEN REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]-[C:4]=[C:5]>>[C:1]-[C:2]=[C:3]-[C:4]=[C:5]",
+      "template_family": "pericyclic_shift",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          210,
+          211
+        ],
+        "printed_pages": [
+          156,
+          157
+        ],
+        "entry_id": "KCC078"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-079",
+      "name": "ESCHENMOSER-TANABE FRAGMENTATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[O:2]-[C:3]>>[C:1]-[OH:2].[C:3]",
+      "template_family": "ether_cleavage",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          212,
+          213
+        ],
+        "printed_pages": [
+          158,
+          159
+        ],
+        "entry_id": "KCC079"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-080",
+      "name": "ESCHWEILER-CLARKE METHYLATION (REDUCTIVE ALKYLATION)",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[Cl,Br,I:2].[N,O,S:3]>>[C:1]-[N,O,S:3]",
+      "template_family": "substitution",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          214,
+          215
+        ],
+        "printed_pages": [
+          160,
+          161
+        ],
+        "entry_id": "KCC080"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-081",
+      "name": "EVANS ALDOL REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          216,
+          217
+        ],
+        "printed_pages": [
+          162,
+          163
+        ],
+        "entry_id": "KCC081"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-082",
+      "name": "FAVORSKII AND HOMO-FAVORSKII REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])[OH:3].[O:4][C:5]>>[C:1](=[O:2])[O:4][C:5]",
+      "template_family": "esterification",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          218,
+          219
+        ],
+        "printed_pages": [
+          164,
+          165
+        ],
+        "entry_id": "KCC082"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-083",
+      "name": "FEIST-BENARY FURAN SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[Cl,Br,I:2].[N,O,S:3]>>[C:1]-[N,O,S:3]",
+      "template_family": "substitution",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          220,
+          221
+        ],
+        "printed_pages": [
+          166,
+          167
+        ],
+        "entry_id": "KCC083"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-084",
+      "name": "FERRIER REACTION / REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[C:2]-[C:3]=[C:4].[C:5]=[C:6]>>[C:1]1-[C:2]=[C:3]-[C:4]-[C:5]-[C:6]-1",
+      "template_family": "diels_alder",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          222,
+          223
+        ],
+        "printed_pages": [
+          168,
+          169
+        ],
+        "entry_id": "KCC084"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 4,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-085",
+      "name": "FINKELSTEIN REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[Cl,Br:2].[I:3]>>[C:1]-[I:3]",
+      "template_family": "halide_exchange",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          224,
+          225
+        ],
+        "printed_pages": [
+          170,
+          171
+        ],
+        "entry_id": "KCC085"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-086",
+      "name": "FISCHER INDOLE SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Cl,Br:2].[N,O:3]>>[c:1]-[N,O:3]",
+      "template_family": "nucleophilic_aromatic",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          226,
+          227
+        ],
+        "printed_pages": [
+          172,
+          173
+        ],
+        "entry_id": "KCC086"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-087",
+      "name": "FLEMING-TAMAO OXIDATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1][OH:2]>>[C:1]=[O:2]",
+      "template_family": "oxidation_alcohol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          228,
+          229
+        ],
+        "printed_pages": [
+          174,
+          175
+        ],
+        "entry_id": "KCC087"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-088",
+      "name": "FRIEDEL-CRAFTS ACYLATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Cl,Br:2].[N,O:3]>>[c:1]-[N,O:3]",
+      "template_family": "nucleophilic_aromatic",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          230,
+          231
+        ],
+        "printed_pages": [
+          176,
+          177
+        ],
+        "entry_id": "KCC088"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-089",
+      "name": "FRIEDEL-CRAFTS ALKYLATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Cl,Br:2].[N,O:3]>>[c:1]-[N,O:3]",
+      "template_family": "nucleophilic_aromatic",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          232,
+          233
+        ],
+        "printed_pages": [
+          178,
+          179
+        ],
+        "entry_id": "KCC089"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-090",
+      "name": "FRIES-, PHOTO-FRIES, AND ANIONIC ORTHO-FRIES REARRANGEMENT",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3][Mg]>>[C:1]([O:2])[C:3]",
+      "template_family": "grignard",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          234,
+          235
+        ],
+        "printed_pages": [
+          180,
+          181
+        ],
+        "entry_id": "KCC090"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-091",
+      "name": "GABRIEL SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[Cl,Br,I:2].[N,O,S:3]>>[C:1]-[N,O,S:3]",
+      "template_family": "substitution",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          236,
+          237
+        ],
+        "printed_pages": [
+          182,
+          183
+        ],
+        "entry_id": "KCC091"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-092",
+      "name": "GATTERMANN AND GATTERMANN-KOCH FORMYLATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Cl,Br:2].[N,O:3]>>[c:1]-[N,O:3]",
+      "template_family": "nucleophilic_aromatic",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          238,
+          239
+        ],
+        "printed_pages": [
+          184,
+          185
+        ],
+        "entry_id": "KCC092"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-093",
+      "name": "GLASER COUPLING",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Br,I:2].[c:3]-[B:4]>>[c:1]-[c:3]",
+      "template_family": "cross_coupling",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          240,
+          241
+        ],
+        "printed_pages": [
+          186,
+          187
+        ],
+        "entry_id": "KCC093"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-094",
+      "name": "GRIGNARD REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3][Mg]>>[C:1]([O:2])[C:3]",
+      "template_family": "grignard",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          242,
+          243
+        ],
+        "printed_pages": [
+          188,
+          189
+        ],
+        "entry_id": "KCC094"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-095",
+      "name": "GROB FRAGMENTATION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[O:2]-[C:3]>>[C:1]-[OH:2].[C:3]",
+      "template_family": "ether_cleavage",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          244,
+          245
+        ],
+        "printed_pages": [
+          190,
+          191
+        ],
+        "entry_id": "KCC095"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-096",
+      "name": "HAJOS-PARRISH REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1][OH:2]>>[C:1]=[O:2]",
+      "template_family": "oxidation_alcohol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          246,
+          247
+        ],
+        "printed_pages": [
+          192,
+          193
+        ],
+        "entry_id": "KCC096"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-097",
+      "name": "HANTZSCH DIHYDROPYRIDINE SYNTHESIS",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]=[O:2].[C:3]=[O:4]>>[C:1]([O:2])[C:3]",
+      "template_family": "aldol",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          248,
+          249
+        ],
+        "printed_pages": [
+          194,
+          195
+        ],
+        "entry_id": "KCC097"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-098",
+      "name": "HECK REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1]-[Br,I:2].[C:3]=[C:4]>>[c:1]-[C:3]=[C:4]",
+      "template_family": "heck",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          250,
+          251
+        ],
+        "printed_pages": [
+          196,
+          197
+        ],
+        "entry_id": "KCC098"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-099",
+      "name": "HEINE REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]-[Cl,Br,I:2].[N,O,S:3]>>[C:1]-[N,O,S:3]",
+      "template_family": "substitution",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          252,
+          253
+        ],
+        "printed_pages": [
+          198,
+          199
+        ],
+        "entry_id": "KCC099"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 1,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    },
+    {
+      "rule_id": "LSM-100",
+      "name": "HELL-VOLHARD-ZELINSKY REACTION",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1]#[C:2]>>[C:1]=[C:2]",
+      "template_family": "alkyne_hydrogenation",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          254,
+          255
+        ],
+        "printed_pages": [
+          200,
+          201
+        ],
+        "entry_id": "KCC100"
+      },
+      "evidence_status": "constructed_from_general_scheme",
+      "confidence": "demo-low",
+      "conditions": null,
+      "limitations": [
+        "Generic demonstration template; must be reconciled with the scheme and a source-transcribed example before scientific use."
+      ],
+      "tests": [
+        {
+          "kind": "parser_and_smoke",
+          "status": "pass",
+          "product_sets": 2,
+          "error": null
+        }
+      ],
+      "validation_status": "pass"
+    }
+  ],
+  "validation": {
+    "tested_at": "2026-09-22",
+    "rules_total": 100,
+    "parser_smoke_pass": 100,
+    "parser_smoke_fail": 0,
+    "note": "Smoke checks validate parsing and at least one product only; they do not validate literature fidelity."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "goal_created_unix": 1789467295,
+  "minimum_duration_seconds": 25200,
+  "phase": "demo_rules_validated_source_transcription_next",
+  "source_pdf_pages": 816,
+  "source_named_reaction_entries": 250,
+  "minimum_tested_rules": 100,
+  "rules_tested": 100,
+  "reading_completed": false,
+  "skill_completed": false,
+  "github_pushed": false,
+  "readme_verified": false,
+  "next_actions": [
+    "Read all 250 two-page reaction chapters plus introductory, appendix and reference sections in bounded batches",
+    "Render and visually inspect source schemes before declaring structures verified",
+    "Author at least 100 chemically distinct named-reaction rules with fixed expected test products",
+    "Run positive, negative, mapping, stereo and provenance audits; iterate defects",
+    "Use a real paper/application example as a skill demonstration",
+    "Write skill from observed failure modes and repeat the demonstration",
+    "Beautify Chinese README, verify repository contents, push and verify remote"
+  ],
+  "last_update": "2026-09-22",
+  "source_inventory_complete": true,
+  "demo_validation": "100/100 RDKit parser_and_smoke pass; RDKit unmapped leaving-group warnings retained for review"
+}

@@ -1,0 +1,3502 @@
+[
+  {
+    "entry_id": "KCC001",
+    "name": "ACETOACETIC ESTER SYNTHESIS",
+    "printed_pages": [
+      2,
+      3
+    ],
+    "pdf_pages": [
+      56,
+      57
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC002",
+    "name": "ACYLOIN CONDENSATION",
+    "printed_pages": [
+      4,
+      5
+    ],
+    "pdf_pages": [
+      58,
+      59
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC003",
+    "name": "ALDER (ENE) REACTION (HYDRO-ALLYL ADDITION)",
+    "printed_pages": [
+      6,
+      7
+    ],
+    "pdf_pages": [
+      60,
+      61
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC004",
+    "name": "ALDOL REACTION",
+    "printed_pages": [
+      8,
+      9
+    ],
+    "pdf_pages": [
+      62,
+      63
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC005",
+    "name": "ALKENE (OLEFIN) METATHESIS",
+    "printed_pages": [
+      10,
+      11
+    ],
+    "pdf_pages": [
+      64,
+      65
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC006",
+    "name": "ALKYNE METATHESIS",
+    "printed_pages": [
+      12,
+      13
+    ],
+    "pdf_pages": [
+      66,
+      67
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC007",
+    "name": "AMADORI REACTION / REARRANGEMENT",
+    "printed_pages": [
+      14,
+      15
+    ],
+    "pdf_pages": [
+      68,
+      69
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC008",
+    "name": "ARBUZOV REACTION (MICHAELIS-ARBUZOV REACTION)",
+    "printed_pages": [
+      16,
+      17
+    ],
+    "pdf_pages": [
+      70,
+      71
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC009",
+    "name": "ARNDT-EISTERT HOMOLOGATION / SYNTHESIS",
+    "printed_pages": [
+      18,
+      19
+    ],
+    "pdf_pages": [
+      72,
+      73
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC010",
+    "name": "AZA-CLAISEN REARRANGEMENT (3-AZA-COPE REARRANGEMENT)",
+    "printed_pages": [
+      20,
+      21
+    ],
+    "pdf_pages": [
+      74,
+      75
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC011",
+    "name": "AZA-COPE REARRANGEMENT",
+    "printed_pages": [
+      22,
+      23
+    ],
+    "pdf_pages": [
+      76,
+      77
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC012",
+    "name": "AZA-WITTIG REACTION",
+    "printed_pages": [
+      24,
+      25
+    ],
+    "pdf_pages": [
+      78,
+      79
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC013",
+    "name": "AZA-[2,3]-WITTIG REARRANGEMENT",
+    "printed_pages": [
+      26,
+      27
+    ],
+    "pdf_pages": [
+      80,
+      81
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC014",
+    "name": "BAEYER-VILLIGER OXIDATION/REARRANGEMENT",
+    "printed_pages": [
+      28,
+      29
+    ],
+    "pdf_pages": [
+      82,
+      83
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC015",
+    "name": "BAKER-VENKATARAMAN REARRANGEMENT",
+    "printed_pages": [
+      30,
+      31
+    ],
+    "pdf_pages": [
+      84,
+      85
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC016",
+    "name": "BALDWIN’S RULES / GUIDELINES FOR RING-CLOSING REACTIONS",
+    "printed_pages": [
+      32,
+      33
+    ],
+    "pdf_pages": [
+      86,
+      87
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC017",
+    "name": "BALZ-SCHIEMANN REACTION (SCHIEMANN REACTION)",
+    "printed_pages": [
+      34,
+      35
+    ],
+    "pdf_pages": [
+      88,
+      89
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC018",
+    "name": "BAMFORD-STEVENS-SHAPIRO OLEFINATION",
+    "printed_pages": [
+      36,
+      37
+    ],
+    "pdf_pages": [
+      90,
+      91
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC019",
+    "name": "BARBIER COUPLING REACTION",
+    "printed_pages": [
+      38,
+      39
+    ],
+    "pdf_pages": [
+      92,
+      93
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC020",
+    "name": "BARTOLI INDOLE SYNTHESIS",
+    "printed_pages": [
+      40,
+      41
+    ],
+    "pdf_pages": [
+      94,
+      95
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC021",
+    "name": "BARTON NITRITE ESTER REACTION",
+    "printed_pages": [
+      42,
+      43
+    ],
+    "pdf_pages": [
+      96,
+      97
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC022",
+    "name": "BARTON RADICAL DECARBOXYLATION REACTION",
+    "printed_pages": [
+      44,
+      45
+    ],
+    "pdf_pages": [
+      98,
+      99
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC023",
+    "name": "BARTON-McCOMBIE RADICAL DEOXYGENATION REACTION",
+    "printed_pages": [
+      46,
+      47
+    ],
+    "pdf_pages": [
+      100,
+      101
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC024",
+    "name": "BAYLIS-HILLMAN REACTION",
+    "printed_pages": [
+      48,
+      49
+    ],
+    "pdf_pages": [
+      102,
+      103
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC025",
+    "name": "BECKMANN REARRANGEMENT",
+    "printed_pages": [
+      50,
+      51
+    ],
+    "pdf_pages": [
+      104,
+      105
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC026",
+    "name": "BENZILIC ACID REARRANGEMENT",
+    "printed_pages": [
+      52,
+      53
+    ],
+    "pdf_pages": [
+      106,
+      107
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC027",
+    "name": "BENZOIN AND RETRO-BENZOIN CONDENSATION",
+    "printed_pages": [
+      54,
+      55
+    ],
+    "pdf_pages": [
+      108,
+      109
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC028",
+    "name": "BERGMAN CYCLOAROMATIZATION REACTION",
+    "printed_pages": [
+      56,
+      57
+    ],
+    "pdf_pages": [
+      110,
+      111
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC029",
+    "name": "BIGINELLI REACTION",
+    "printed_pages": [
+      58,
+      59
+    ],
+    "pdf_pages": [
+      112,
+      113
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC030",
+    "name": "BIRCH REDUCTION",
+    "printed_pages": [
+      60,
+      61
+    ],
+    "pdf_pages": [
+      114,
+      115
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC031",
+    "name": "BISCHLER-NAPIERALSKI ISOQUINOLINE SYNTHESIS",
+    "printed_pages": [
+      62,
+      63
+    ],
+    "pdf_pages": [
+      116,
+      117
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC032",
+    "name": "BROOK REARRANGEMENT",
+    "printed_pages": [
+      64,
+      65
+    ],
+    "pdf_pages": [
+      118,
+      119
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC033",
+    "name": "BROWN HYDROBORATION REACTION",
+    "printed_pages": [
+      66,
+      67
+    ],
+    "pdf_pages": [
+      120,
+      121
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC034",
+    "name": "BUCHNER METHOD OF RING EXPANSION",
+    "printed_pages": [
+      68,
+      69
+    ],
+    "pdf_pages": [
+      122,
+      123
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC035",
+    "name": "BUCHWALD-HARTWIG CROSS-COUPLING",
+    "printed_pages": [
+      70,
+      71
+    ],
+    "pdf_pages": [
+      124,
+      125
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC036",
+    "name": "BURGESS DEHYDRATION REACTION",
+    "printed_pages": [
+      72,
+      73
+    ],
+    "pdf_pages": [
+      126,
+      127
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC037",
+    "name": "CANNIZZARO REACTION",
+    "printed_pages": [
+      74,
+      75
+    ],
+    "pdf_pages": [
+      128,
+      129
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC038",
+    "name": "CARROLL REARRANGEMENT (KIMEL-COPE REARRANGEMENT)",
+    "printed_pages": [
+      76,
+      77
+    ],
+    "pdf_pages": [
+      130,
+      131
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC039",
+    "name": "CASTRO-STEPHENS COUPLING",
+    "printed_pages": [
+      78,
+      79
+    ],
+    "pdf_pages": [
+      132,
+      133
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC040",
+    "name": "CHICHIBABIN AMINATION REACTION",
+    "printed_pages": [
+      80,
+      81
+    ],
+    "pdf_pages": [
+      134,
+      135
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC041",
+    "name": "CHUGAEV ELIMINATION REACTION (XANTHATE ESTER PYROLYSIS)",
+    "printed_pages": [
+      82,
+      83
+    ],
+    "pdf_pages": [
+      136,
+      137
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC042",
+    "name": "CIAMICIAN-DENNSTEDT REARRANGEMENT",
+    "printed_pages": [
+      84,
+      85
+    ],
+    "pdf_pages": [
+      138,
+      139
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC043",
+    "name": "CLAISEN CONDENSATION / CLAISEN REACTION",
+    "printed_pages": [
+      86,
+      87
+    ],
+    "pdf_pages": [
+      140,
+      141
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC044",
+    "name": "CLAISEN REARRANGEMENT",
+    "printed_pages": [
+      88,
+      89
+    ],
+    "pdf_pages": [
+      142,
+      143
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC045",
+    "name": "CLAISEN-IRELAND REARRANGEMENT",
+    "printed_pages": [
+      90,
+      91
+    ],
+    "pdf_pages": [
+      144,
+      145
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC046",
+    "name": "CLEMMENSEN REDUCTION",
+    "printed_pages": [
+      92,
+      93
+    ],
+    "pdf_pages": [
+      146,
+      147
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC047",
+    "name": "COMBES QUINOLINE SYNTHESIS",
+    "printed_pages": [
+      94,
+      95
+    ],
+    "pdf_pages": [
+      148,
+      149
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC048",
+    "name": "COPE ELIMINATION / COPE REACTION",
+    "printed_pages": [
+      96,
+      97
+    ],
+    "pdf_pages": [
+      150,
+      151
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC049",
+    "name": "COPE REARRANGEMENT",
+    "printed_pages": [
+      98,
+      99
+    ],
+    "pdf_pages": [
+      152,
+      153
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC050",
+    "name": "COREY-BAKSHI-SHIBATA REDUCTION (CBS REDUCTION)",
+    "printed_pages": [
+      100,
+      101
+    ],
+    "pdf_pages": [
+      154,
+      155
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC051",
+    "name": "COREY-CHAYKOVSKY EPOXIDATION AND CYCLOPROPANATION",
+    "printed_pages": [
+      102,
+      103
+    ],
+    "pdf_pages": [
+      156,
+      157
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC052",
+    "name": "COREY-FUCHS ALKYNE SYNTHESIS",
+    "printed_pages": [
+      104,
+      105
+    ],
+    "pdf_pages": [
+      158,
+      159
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC053",
+    "name": "COREY-KIM OXIDATION",
+    "printed_pages": [
+      106,
+      107
+    ],
+    "pdf_pages": [
+      160,
+      161
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC054",
+    "name": "COREY-NICOLAOU MACROLACTONIZATION",
+    "printed_pages": [
+      108,
+      109
+    ],
+    "pdf_pages": [
+      162,
+      163
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC055",
+    "name": "COREY-WINTER OLEFINATION",
+    "printed_pages": [
+      110,
+      111
+    ],
+    "pdf_pages": [
+      164,
+      165
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC056",
+    "name": "CORNFORTH REARRANGEMENT",
+    "printed_pages": [
+      112,
+      113
+    ],
+    "pdf_pages": [
+      166,
+      167
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC057",
+    "name": "CRIEGEE OXIDATION",
+    "printed_pages": [
+      114,
+      115
+    ],
+    "pdf_pages": [
+      168,
+      169
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC058",
+    "name": "CURTIUS REARRANGEMENT",
+    "printed_pages": [
+      116,
+      117
+    ],
+    "pdf_pages": [
+      170,
+      171
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC059",
+    "name": "DAKIN OXIDATION",
+    "printed_pages": [
+      118,
+      119
+    ],
+    "pdf_pages": [
+      172,
+      173
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC060",
+    "name": "DAKIN-WEST REACTION",
+    "printed_pages": [
+      120,
+      121
+    ],
+    "pdf_pages": [
+      174,
+      175
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC061",
+    "name": "DANHEISER BENZANNULATION",
+    "printed_pages": [
+      122,
+      123
+    ],
+    "pdf_pages": [
+      176,
+      177
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC062",
+    "name": "DANHEISER CYCLOPENTENE ANNULATION",
+    "printed_pages": [
+      124,
+      125
+    ],
+    "pdf_pages": [
+      178,
+      179
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC063",
+    "name": "DANISHEFSKY’S DIENE CYCLOADDITION",
+    "printed_pages": [
+      126,
+      127
+    ],
+    "pdf_pages": [
+      180,
+      181
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC064",
+    "name": "DARZENS GLYCIDIC ESTER CONDENSATION",
+    "printed_pages": [
+      128,
+      129
+    ],
+    "pdf_pages": [
+      182,
+      183
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC065",
+    "name": "DAVIS’ OXAZIRIDINE OXIDATIONS",
+    "printed_pages": [
+      130,
+      131
+    ],
+    "pdf_pages": [
+      184,
+      185
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC066",
+    "name": "DE MAYO CYCLOADDITION (ENONE-ALKENE [2+2] PHOTOCYCLOADDITION)",
+    "printed_pages": [
+      132,
+      133
+    ],
+    "pdf_pages": [
+      186,
+      187
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC067",
+    "name": "DEMJANOV AND TIFFENEAU-DEMJANOV REARRANGEMENT",
+    "printed_pages": [
+      134,
+      135
+    ],
+    "pdf_pages": [
+      188,
+      189
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC068",
+    "name": "DESS-MARTIN OXIDATION",
+    "printed_pages": [
+      136,
+      137
+    ],
+    "pdf_pages": [
+      190,
+      191
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC069",
+    "name": "DIECKMANN CONDENSATION",
+    "printed_pages": [
+      138,
+      139
+    ],
+    "pdf_pages": [
+      192,
+      193
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC070",
+    "name": "DIELS-ALDER CYCLOADDITION",
+    "printed_pages": [
+      140,
+      141
+    ],
+    "pdf_pages": [
+      194,
+      195
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC071",
+    "name": "DIENONE-PHENOL REARRANGEMENT",
+    "printed_pages": [
+      142,
+      143
+    ],
+    "pdf_pages": [
+      196,
+      197
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC072",
+    "name": "DIMROTH REARRANGEMENT",
+    "printed_pages": [
+      144,
+      145
+    ],
+    "pdf_pages": [
+      198,
+      199
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC073",
+    "name": "DOERING-LAFLAMME ALLENE SYNTHESIS",
+    "printed_pages": [
+      146,
+      147
+    ],
+    "pdf_pages": [
+      200,
+      201
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC074",
+    "name": "DOTZ BENZANNULATION REACTION",
+    "printed_pages": [
+      148,
+      149
+    ],
+    "pdf_pages": [
+      202,
+      203
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC075",
+    "name": "ENDERS SAMP/RAMP HYDRAZONE ALKYLATION",
+    "printed_pages": [
+      150,
+      151
+    ],
+    "pdf_pages": [
+      204,
+      205
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC076",
+    "name": "ENYNE METATHESIS",
+    "printed_pages": [
+      152,
+      153
+    ],
+    "pdf_pages": [
+      206,
+      207
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC077",
+    "name": "ESCHENMOSER METHENYLATION",
+    "printed_pages": [
+      154,
+      155
+    ],
+    "pdf_pages": [
+      208,
+      209
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC078",
+    "name": "ESCHENMOSER-CLAISEN REARRANGEMENT",
+    "printed_pages": [
+      156,
+      157
+    ],
+    "pdf_pages": [
+      210,
+      211
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC079",
+    "name": "ESCHENMOSER-TANABE FRAGMENTATION",
+    "printed_pages": [
+      158,
+      159
+    ],
+    "pdf_pages": [
+      212,
+      213
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC080",
+    "name": "ESCHWEILER-CLARKE METHYLATION (REDUCTIVE ALKYLATION)",
+    "printed_pages": [
+      160,
+      161
+    ],
+    "pdf_pages": [
+      214,
+      215
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC081",
+    "name": "EVANS ALDOL REACTION",
+    "printed_pages": [
+      162,
+      163
+    ],
+    "pdf_pages": [
+      216,
+      217
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC082",
+    "name": "FAVORSKII AND HOMO-FAVORSKII REARRANGEMENT",
+    "printed_pages": [
+      164,
+      165
+    ],
+    "pdf_pages": [
+      218,
+      219
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC083",
+    "name": "FEIST-BENARY FURAN SYNTHESIS",
+    "printed_pages": [
+      166,
+      167
+    ],
+    "pdf_pages": [
+      220,
+      221
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC084",
+    "name": "FERRIER REACTION / REARRANGEMENT",
+    "printed_pages": [
+      168,
+      169
+    ],
+    "pdf_pages": [
+      222,
+      223
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC085",
+    "name": "FINKELSTEIN REACTION",
+    "printed_pages": [
+      170,
+      171
+    ],
+    "pdf_pages": [
+      224,
+      225
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC086",
+    "name": "FISCHER INDOLE SYNTHESIS",
+    "printed_pages": [
+      172,
+      173
+    ],
+    "pdf_pages": [
+      226,
+      227
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC087",
+    "name": "FLEMING-TAMAO OXIDATION",
+    "printed_pages": [
+      174,
+      175
+    ],
+    "pdf_pages": [
+      228,
+      229
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC088",
+    "name": "FRIEDEL-CRAFTS ACYLATION",
+    "printed_pages": [
+      176,
+      177
+    ],
+    "pdf_pages": [
+      230,
+      231
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC089",
+    "name": "FRIEDEL-CRAFTS ALKYLATION",
+    "printed_pages": [
+      178,
+      179
+    ],
+    "pdf_pages": [
+      232,
+      233
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC090",
+    "name": "FRIES-, PHOTO-FRIES, AND ANIONIC ORTHO-FRIES REARRANGEMENT",
+    "printed_pages": [
+      180,
+      181
+    ],
+    "pdf_pages": [
+      234,
+      235
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC091",
+    "name": "GABRIEL SYNTHESIS",
+    "printed_pages": [
+      182,
+      183
+    ],
+    "pdf_pages": [
+      236,
+      237
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC092",
+    "name": "GATTERMANN AND GATTERMANN-KOCH FORMYLATION",
+    "printed_pages": [
+      184,
+      185
+    ],
+    "pdf_pages": [
+      238,
+      239
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC093",
+    "name": "GLASER COUPLING",
+    "printed_pages": [
+      186,
+      187
+    ],
+    "pdf_pages": [
+      240,
+      241
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC094",
+    "name": "GRIGNARD REACTION",
+    "printed_pages": [
+      188,
+      189
+    ],
+    "pdf_pages": [
+      242,
+      243
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC095",
+    "name": "GROB FRAGMENTATION",
+    "printed_pages": [
+      190,
+      191
+    ],
+    "pdf_pages": [
+      244,
+      245
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC096",
+    "name": "HAJOS-PARRISH REACTION",
+    "printed_pages": [
+      192,
+      193
+    ],
+    "pdf_pages": [
+      246,
+      247
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC097",
+    "name": "HANTZSCH DIHYDROPYRIDINE SYNTHESIS",
+    "printed_pages": [
+      194,
+      195
+    ],
+    "pdf_pages": [
+      248,
+      249
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC098",
+    "name": "HECK REACTION",
+    "printed_pages": [
+      196,
+      197
+    ],
+    "pdf_pages": [
+      250,
+      251
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC099",
+    "name": "HEINE REACTION",
+    "printed_pages": [
+      198,
+      199
+    ],
+    "pdf_pages": [
+      252,
+      253
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC100",
+    "name": "HELL-VOLHARD-ZELINSKY REACTION",
+    "printed_pages": [
+      200,
+      201
+    ],
+    "pdf_pages": [
+      254,
+      255
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC101",
+    "name": "HENRY REACTION",
+    "printed_pages": [
+      202,
+      203
+    ],
+    "pdf_pages": [
+      256,
+      257
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC102",
+    "name": "HETERO DIELS-ALDER CYCLOADDITION",
+    "printed_pages": [
+      204,
+      205
+    ],
+    "pdf_pages": [
+      258,
+      259
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC103",
+    "name": "HOFMANN ELIMINATION",
+    "printed_pages": [
+      206,
+      207
+    ],
+    "pdf_pages": [
+      260,
+      261
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC104",
+    "name": "HOFMANN-LOFFLER-FREYTAG REACTION (REMOTE FUNCTIONALIZATION)",
+    "printed_pages": [
+      208,
+      209
+    ],
+    "pdf_pages": [
+      262,
+      263
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC105",
+    "name": "HOFMANN REARRANGEMENT",
+    "printed_pages": [
+      210,
+      211
+    ],
+    "pdf_pages": [
+      264,
+      265
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC106",
+    "name": "HORNER-WADSWORTH-EMMONS OLEFINATION",
+    "printed_pages": [
+      212,
+      213
+    ],
+    "pdf_pages": [
+      266,
+      267
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC107",
+    "name": "HORNER-WADSWORTH-EMMONS OLEFINATION — STILL-GENNARI MODIFICATION",
+    "printed_pages": [
+      214,
+      215
+    ],
+    "pdf_pages": [
+      268,
+      269
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC108",
+    "name": "HOUBEN-HOESCH REACTION / SYNTHESIS",
+    "printed_pages": [
+      216,
+      217
+    ],
+    "pdf_pages": [
+      270,
+      271
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC109",
+    "name": "HUNSDIECKER REACTION",
+    "printed_pages": [
+      218,
+      219
+    ],
+    "pdf_pages": [
+      272,
+      273
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC110",
+    "name": "JACOBSEN HYDROLYTIC KINETIC RESOLUTION",
+    "printed_pages": [
+      220,
+      221
+    ],
+    "pdf_pages": [
+      274,
+      275
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC111",
+    "name": "JACOBSEN-KATSUKI EPOXIDATION",
+    "printed_pages": [
+      222,
+      223
+    ],
+    "pdf_pages": [
+      276,
+      277
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC112",
+    "name": "JAPP-KLINGEMANN REACTION",
+    "printed_pages": [
+      224,
+      225
+    ],
+    "pdf_pages": [
+      278,
+      279
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC113",
+    "name": "JOHNSON-CLAISEN REARRANGEMENT",
+    "printed_pages": [
+      226,
+      227
+    ],
+    "pdf_pages": [
+      280,
+      281
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC114",
+    "name": "JONES OXIDATION / OXIDATION OF ALCOHOLS BY CHROMIUM REAGENTS",
+    "printed_pages": [
+      228,
+      229
+    ],
+    "pdf_pages": [
+      282,
+      283
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC115",
+    "name": "JULIA-LYTHGOE OLEFINATION",
+    "printed_pages": [
+      230,
+      231
+    ],
+    "pdf_pages": [
+      284,
+      285
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC116",
+    "name": "KAGAN-MOLANDER SAMARIUM DIIODIDE-MEDIATED COUPLING",
+    "printed_pages": [
+      232,
+      233
+    ],
+    "pdf_pages": [
+      286,
+      287
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC117",
+    "name": "KAHNE GLYCOSIDATION",
+    "printed_pages": [
+      234,
+      235
+    ],
+    "pdf_pages": [
+      288,
+      289
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC118",
+    "name": "KECK ASYMMETRIC ALLYLATION",
+    "printed_pages": [
+      236,
+      237
+    ],
+    "pdf_pages": [
+      290,
+      291
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC119",
+    "name": "KECK MACROLACTONIZATION",
+    "printed_pages": [
+      238,
+      239
+    ],
+    "pdf_pages": [
+      292,
+      293
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC120",
+    "name": "KECK RADICAL ALLYLATION",
+    "printed_pages": [
+      240,
+      241
+    ],
+    "pdf_pages": [
+      294,
+      295
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC121",
+    "name": "KNOEVENAGEL CONDENSATION",
+    "printed_pages": [
+      242,
+      243
+    ],
+    "pdf_pages": [
+      296,
+      297
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC122",
+    "name": "KNORR PYRROLE SYNTHESIS",
+    "printed_pages": [
+      244,
+      245
+    ],
+    "pdf_pages": [
+      298,
+      299
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC123",
+    "name": "KOENIGS-KNORR GLYCOSIDATION",
+    "printed_pages": [
+      246,
+      247
+    ],
+    "pdf_pages": [
+      300,
+      301
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC124",
+    "name": "KOLBE-SCHMITT REACTION",
+    "printed_pages": [
+      248,
+      249
+    ],
+    "pdf_pages": [
+      302,
+      303
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC125",
+    "name": "KORNBLUM OXIDATION",
+    "printed_pages": [
+      250,
+      251
+    ],
+    "pdf_pages": [
+      304,
+      305
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC126",
+    "name": "KRAPCHO DEALKOXYCARBONYLATION (KRAPCHO REACTION)",
+    "printed_pages": [
+      252,
+      253
+    ],
+    "pdf_pages": [
+      306,
+      307
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC127",
+    "name": "KROHNKE PYRIDINE SYNTHESIS",
+    "printed_pages": [
+      254,
+      255
+    ],
+    "pdf_pages": [
+      308,
+      309
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC128",
+    "name": "KULINKOVICH REACTION",
+    "printed_pages": [
+      256,
+      257
+    ],
+    "pdf_pages": [
+      310,
+      311
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC129",
+    "name": "KUMADA CROSS-COUPLING",
+    "printed_pages": [
+      258,
+      259
+    ],
+    "pdf_pages": [
+      312,
+      313
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC130",
+    "name": "LAROCK INDOLE SYNTHESIS",
+    "printed_pages": [
+      260,
+      261
+    ],
+    "pdf_pages": [
+      314,
+      315
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC131",
+    "name": "LEY OXIDATION",
+    "printed_pages": [
+      262,
+      263
+    ],
+    "pdf_pages": [
+      316,
+      317
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC132",
+    "name": "LIEBEN HALOFORM REACTION",
+    "printed_pages": [
+      264,
+      265
+    ],
+    "pdf_pages": [
+      318,
+      319
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC133",
+    "name": "LOSSEN REARRANGEMENT",
+    "printed_pages": [
+      266,
+      267
+    ],
+    "pdf_pages": [
+      320,
+      321
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC134",
+    "name": "LUCHE REDUCTION",
+    "printed_pages": [
+      268,
+      269
+    ],
+    "pdf_pages": [
+      322,
+      323
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC135",
+    "name": "MADELUNG INDOLE SYNTHESIS",
+    "printed_pages": [
+      270,
+      271
+    ],
+    "pdf_pages": [
+      324,
+      325
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC136",
+    "name": "MALONIC ESTER SYNTHESIS",
+    "printed_pages": [
+      272,
+      273
+    ],
+    "pdf_pages": [
+      326,
+      327
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC137",
+    "name": "MANNICH REACTION",
+    "printed_pages": [
+      274,
+      275
+    ],
+    "pdf_pages": [
+      328,
+      329
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC138",
+    "name": "McMURRY COUPLING",
+    "printed_pages": [
+      276,
+      277
+    ],
+    "pdf_pages": [
+      330,
+      331
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC139",
+    "name": "MEERWEIN ARYLATION",
+    "printed_pages": [
+      278,
+      279
+    ],
+    "pdf_pages": [
+      332,
+      333
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC140",
+    "name": "MEERWEIN-PONNDORF-VERLEY REDUCTION",
+    "printed_pages": [
+      280,
+      281
+    ],
+    "pdf_pages": [
+      334,
+      335
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC141",
+    "name": "MEISENHEIMER REARRANGEMENT",
+    "printed_pages": [
+      282,
+      283
+    ],
+    "pdf_pages": [
+      336,
+      337
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC142",
+    "name": "MEYER-SCHUSTER AND RUPE REARRANGEMENT",
+    "printed_pages": [
+      284,
+      285
+    ],
+    "pdf_pages": [
+      338,
+      339
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC143",
+    "name": "MICHAEL ADDITION/REACTION",
+    "printed_pages": [
+      286,
+      287
+    ],
+    "pdf_pages": [
+      340,
+      341
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC144",
+    "name": "MIDLAND ALPINE-BORANE® REDUCTION (MIDLAND REDUCTION)",
+    "printed_pages": [
+      288,
+      289
+    ],
+    "pdf_pages": [
+      342,
+      343
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC145",
+    "name": "MINISCI REACTION",
+    "printed_pages": [
+      290,
+      291
+    ],
+    "pdf_pages": [
+      344,
+      345
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC146",
+    "name": "MISLOW-EVANS REARRANGEMENT",
+    "printed_pages": [
+      292,
+      293
+    ],
+    "pdf_pages": [
+      346,
+      347
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC147",
+    "name": "MITSUNOBU REACTION",
+    "printed_pages": [
+      294,
+      295
+    ],
+    "pdf_pages": [
+      348,
+      349
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC148",
+    "name": "| MIYAURA BORATION",
+    "printed_pages": [
+      296,
+      297
+    ],
+    "pdf_pages": [
+      350,
+      351
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC149",
+    "name": "MUKAIYAMA ALDOL REACTION",
+    "printed_pages": [
+      298,
+      299
+    ],
+    "pdf_pages": [
+      352,
+      353
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC150",
+    "name": "MYERS ASYMMETRIC ALKYLATION",
+    "printed_pages": [
+      300,
+      301
+    ],
+    "pdf_pages": [
+      354,
+      355
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC151",
+    "name": "NAGATA HYDROCYANATION",
+    "printed_pages": [
+      302,
+      303
+    ],
+    "pdf_pages": [
+      356,
+      357
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC152",
+    "name": "NAZAROV CYCLIZATION",
+    "printed_pages": [
+      304,
+      305
+    ],
+    "pdf_pages": [
+      358,
+      359
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC153",
+    "name": "NEBER REARRANGEMENT",
+    "printed_pages": [
+      306,
+      307
+    ],
+    "pdf_pages": [
+      360,
+      361
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC154",
+    "name": "NEF REACTION",
+    "printed_pages": [
+      308,
+      309
+    ],
+    "pdf_pages": [
+      362,
+      363
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC155",
+    "name": "NEGISHI CROSS-COUPLING",
+    "printed_pages": [
+      310,
+      311
+    ],
+    "pdf_pages": [
+      364,
+      365
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC156",
+    "name": "NENITZESCU INDOLE SYNTHESIS",
+    "printed_pages": [
+      312,
+      313
+    ],
+    "pdf_pages": [
+      366,
+      367
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC157",
+    "name": "NICHOLAS REACTION",
+    "printed_pages": [
+      314,
+      315
+    ],
+    "pdf_pages": [
+      368,
+      369
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC158",
+    "name": "NOYORI ASYMMETRIC HYDROGENATION",
+    "printed_pages": [
+      316,
+      317
+    ],
+    "pdf_pages": [
+      370,
+      371
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC159",
+    "name": "NOZAKI-HIYAMA-KISHI REACTION",
+    "printed_pages": [
+      318,
+      319
+    ],
+    "pdf_pages": [
+      372,
+      373
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC160",
+    "name": "OPPENAUER OXIDATION",
+    "printed_pages": [
+      320,
+      321
+    ],
+    "pdf_pages": [
+      374,
+      375
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC161",
+    "name": "OVERMAN REARRANGEMENT",
+    "printed_pages": [
+      322,
+      323
+    ],
+    "pdf_pages": [
+      376,
+      377
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC162",
+    "name": "OXY-COPE REARRANGEMENT AND ANIONIC OXY-COPE REARRANGEMENT",
+    "printed_pages": [
+      324,
+      325
+    ],
+    "pdf_pages": [
+      378,
+      379
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC163",
+    "name": "PAAL-KNORR FURAN SYNTHESIS",
+    "printed_pages": [
+      326,
+      327
+    ],
+    "pdf_pages": [
+      380,
+      381
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC164",
+    "name": "PAAL-KNORR PYRROLE SYNTHESIS",
+    "printed_pages": [
+      328,
+      329
+    ],
+    "pdf_pages": [
+      382,
+      383
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC165",
+    "name": "PASSERINI MULTICOMPONENT REACTION",
+    "printed_pages": [
+      330,
+      331
+    ],
+    "pdf_pages": [
+      384,
+      385
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC166",
+    "name": "PATERNO-BUCHI REACTION",
+    "printed_pages": [
+      332,
+      333
+    ],
+    "pdf_pages": [
+      386,
+      387
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC167",
+    "name": "PAUSON-KHAND REACTION",
+    "printed_pages": [
+      334,
+      335
+    ],
+    "pdf_pages": [
+      388,
+      389
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC168",
+    "name": "PAYNE REARRANGEMENT",
+    "printed_pages": [
+      336,
+      337
+    ],
+    "pdf_pages": [
+      390,
+      391
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC169",
+    "name": "PERKIN REACTION",
+    "printed_pages": [
+      338,
+      339
+    ],
+    "pdf_pages": [
+      392,
+      393
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC170",
+    "name": "PETASIS BORONIC ACID-MANNICH REACTION",
+    "printed_pages": [
+      340,
+      341
+    ],
+    "pdf_pages": [
+      394,
+      395
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC171",
+    "name": "PETASIS-FERRIER REARRANGEMENT",
+    "printed_pages": [
+      342,
+      343
+    ],
+    "pdf_pages": [
+      396,
+      397
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC172",
+    "name": "PETERSON OLEFINATION",
+    "printed_pages": [
+      344,
+      345
+    ],
+    "pdf_pages": [
+      398,
+      399
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC173",
+    "name": "PFITZNER-MOFFATT OXIDATION",
+    "printed_pages": [
+      346,
+      347
+    ],
+    "pdf_pages": [
+      400,
+      401
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC174",
+    "name": "PICTET-SPENGLER TETRAHYDROISOQUINOLINE SYNTHESIS",
+    "printed_pages": [
+      348,
+      349
+    ],
+    "pdf_pages": [
+      402,
+      403
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC175",
+    "name": "PINACOL AND SEMIPINACOL REARRANGEMENT",
+    "printed_pages": [
+      350,
+      351
+    ],
+    "pdf_pages": [
+      404,
+      405
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC176",
+    "name": "PINNER REACTION",
+    "printed_pages": [
+      352,
+      353
+    ],
+    "pdf_pages": [
+      406,
+      407
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC177",
+    "name": "PINNICK OXIDATION",
+    "printed_pages": [
+      354,
+      355
+    ],
+    "pdf_pages": [
+      408,
+      409
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC178",
+    "name": "POLONOVSKI REACTION",
+    "printed_pages": [
+      356,
+      357
+    ],
+    "pdf_pages": [
+      410,
+      411
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC179",
+    "name": "POMERANZ-FRITSCH REACTION",
+    "printed_pages": [
+      358,
+      359
+    ],
+    "pdf_pages": [
+      412,
+      413
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC180",
+    "name": "PREVOST REACTION",
+    "printed_pages": [
+      360,
+      361
+    ],
+    "pdf_pages": [
+      414,
+      415
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC181",
+    "name": "PRILEZHAEV REACTION",
+    "printed_pages": [
+      362,
+      363
+    ],
+    "pdf_pages": [
+      416,
+      417
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC182",
+    "name": "PRINS REACTION",
+    "printed_pages": [
+      364,
+      365
+    ],
+    "pdf_pages": [
+      418,
+      419
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC183",
+    "name": "PRINS-PINACOL REARRANGEMENT",
+    "printed_pages": [
+      366,
+      367
+    ],
+    "pdf_pages": [
+      420,
+      421
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC184",
+    "name": "PUMMERER REARRANGEMENT",
+    "printed_pages": [
+      368,
+      369
+    ],
+    "pdf_pages": [
+      422,
+      423
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC185",
+    "name": "QUASI-FAVORSKII REARRANGEMENT",
+    "printed_pages": [
+      370,
+      371
+    ],
+    "pdf_pages": [
+      424,
+      425
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC186",
+    "name": "RAMBERG-BACKLUND REARRANGEMENT",
+    "printed_pages": [
+      372,
+      373
+    ],
+    "pdf_pages": [
+      426,
+      427
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC187",
+    "name": "REFORMATSKY REACTION",
+    "printed_pages": [
+      374,
+      375
+    ],
+    "pdf_pages": [
+      428,
+      429
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC188",
+    "name": "REGITZ DIAZO TRANSFER",
+    "printed_pages": [
+      376,
+      377
+    ],
+    "pdf_pages": [
+      430,
+      431
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC189",
+    "name": "REIMER-TIEMANN REACTION",
+    "printed_pages": [
+      378,
+      379
+    ],
+    "pdf_pages": [
+      432,
+      433
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC190",
+    "name": "RILEY SELENIUM DIOXIDE OXIDATION",
+    "printed_pages": [
+      380,
+      381
+    ],
+    "pdf_pages": [
+      434,
+      435
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC191",
+    "name": "RITTER REACTION",
+    "printed_pages": [
+      382,
+      383
+    ],
+    "pdf_pages": [
+      436,
+      437
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC192",
+    "name": "ROBINSON ANNULATION",
+    "printed_pages": [
+      384,
+      385
+    ],
+    "pdf_pages": [
+      438,
+      439
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC193",
+    "name": "ROUSH ASYMMETRIC ALLYLATION",
+    "printed_pages": [
+      386,
+      387
+    ],
+    "pdf_pages": [
+      440,
+      441
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC194",
+    "name": "RUBOTTOM OXIDATION",
+    "printed_pages": [
+      388,
+      389
+    ],
+    "pdf_pages": [
+      442,
+      443
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC195",
+    "name": "SAEGUSA OXIDATION",
+    "printed_pages": [
+      390,
+      391
+    ],
+    "pdf_pages": [
+      444,
+      445
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC196",
+    "name": "SAKURAI ALLYLATION",
+    "printed_pages": [
+      392,
+      393
+    ],
+    "pdf_pages": [
+      446,
+      447
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC197",
+    "name": "SANDMEYER REACTION",
+    "printed_pages": [
+      394,
+      395
+    ],
+    "pdf_pages": [
+      448,
+      449
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC198",
+    "name": "SCHMIDT REACTION",
+    "printed_pages": [
+      396,
+      397
+    ],
+    "pdf_pages": [
+      450,
+      451
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC199",
+    "name": "SCHOTTEN-BAUMANN REACTION",
+    "printed_pages": [
+      398,
+      399
+    ],
+    "pdf_pages": [
+      452,
+      453
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC200",
+    "name": "SCHWARTZ HYDROZIRCONATION",
+    "printed_pages": [
+      400,
+      401
+    ],
+    "pdf_pages": [
+      454,
+      455
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC201",
+    "name": "SEYFERTH-GILBERT HOMOLOGATION",
+    "printed_pages": [
+      402,
+      403
+    ],
+    "pdf_pages": [
+      456,
+      457
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC202",
+    "name": "SHARPLESS ASYMMETRIC AMINOHYDROXYLATION",
+    "printed_pages": [
+      404,
+      405
+    ],
+    "pdf_pages": [
+      458,
+      459
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC203",
+    "name": "SHARPLESS ASYMMETRIC DIHYDROXYLATION",
+    "printed_pages": [
+      406,
+      407
+    ],
+    "pdf_pages": [
+      460,
+      461
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC204",
+    "name": "SHARPLESS ASYMMETRIC EPOXIDATION",
+    "printed_pages": [
+      408,
+      409
+    ],
+    "pdf_pages": [
+      462,
+      463
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC205",
+    "name": "SHI ASYMMETRIC EPOXIDATION",
+    "printed_pages": [
+      410,
+      411
+    ],
+    "pdf_pages": [
+      464,
+      465
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC206",
+    "name": "SIMMONS-SMITH CYCLOPROPANATION",
+    "printed_pages": [
+      412,
+      413
+    ],
+    "pdf_pages": [
+      466,
+      467
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC207",
+    "name": "SKRAUP AND DOEBNER-MILLER QUINOLINE SYNTHESIS",
+    "printed_pages": [
+      414,
+      415
+    ],
+    "pdf_pages": [
+      468,
+      469
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC208",
+    "name": "SMILES REARRANGEMENT",
+    "printed_pages": [
+      416,
+      417
+    ],
+    "pdf_pages": [
+      470,
+      471
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC209",
+    "name": "SMITH-TIETZE MULTICOMPONENT DITHIANE LINCHPIN COUPLING",
+    "printed_pages": [
+      418,
+      419
+    ],
+    "pdf_pages": [
+      472,
+      473
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC210",
+    "name": "SNIECKUS DIRECTED ORTHO METALATION",
+    "printed_pages": [
+      420,
+      421
+    ],
+    "pdf_pages": [
+      474,
+      475
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC211",
+    "name": "SOMMELET-HAUSER REARRANGEMENT",
+    "printed_pages": [
+      422,
+      423
+    ],
+    "pdf_pages": [
+      476,
+      477
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC212",
+    "name": "SONOGASHIRA CROSS-COUPLING",
+    "printed_pages": [
+      424,
+      425
+    ],
+    "pdf_pages": [
+      478,
+      479
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC213",
+    "name": "STAUDINGER KETENE CYCLOADDITION",
+    "printed_pages": [
+      426,
+      427
+    ],
+    "pdf_pages": [
+      480,
+      481
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC214",
+    "name": "STAUDINGER REACTION",
+    "printed_pages": [
+      428,
+      429
+    ],
+    "pdf_pages": [
+      482,
+      483
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC215",
+    "name": "STEPHEN ALDEHYDE SYNTHESIS (STEPHEN REDUCTION)",
+    "printed_pages": [
+      430,
+      431
+    ],
+    "pdf_pages": [
+      484,
+      485
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC216",
+    "name": "STETTER REACTION",
+    "printed_pages": [
+      432,
+      433
+    ],
+    "pdf_pages": [
+      486,
+      487
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC217",
+    "name": "STEVENS REARRANGEMENT",
+    "printed_pages": [
+      434,
+      435
+    ],
+    "pdf_pages": [
+      488,
+      489
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC218",
+    "name": "STILLE CARBONYLATIVE CROSS-COUPLING",
+    "printed_pages": [
+      436,
+      437
+    ],
+    "pdf_pages": [
+      490,
+      491
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC219",
+    "name": "STILLE CROSS-COUPLING (MIGITA-KOSUGI-STILLE COUPLING)",
+    "printed_pages": [
+      438,
+      439
+    ],
+    "pdf_pages": [
+      492,
+      493
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC220",
+    "name": "STILLE-KELLY COUPLING",
+    "printed_pages": [
+      440,
+      441
+    ],
+    "pdf_pages": [
+      494,
+      495
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC221",
+    "name": "STOBBE CONDENSATION",
+    "printed_pages": [
+      442,
+      443
+    ],
+    "pdf_pages": [
+      496,
+      497
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC222",
+    "name": "STORK ENAMINE SYNTHESIS",
+    "printed_pages": [
+      444,
+      445
+    ],
+    "pdf_pages": [
+      498,
+      499
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC223",
+    "name": "STRECKER REACTION",
+    "printed_pages": [
+      446,
+      447
+    ],
+    "pdf_pages": [
+      500,
+      501
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC224",
+    "name": "SUZUKI CROSS-COUPLING (SUZUKI-MIYAURA CROSS-COUPLING)",
+    "printed_pages": [
+      448,
+      449
+    ],
+    "pdf_pages": [
+      502,
+      503
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC225",
+    "name": "SWERN OXIDATION",
+    "printed_pages": [
+      450,
+      451
+    ],
+    "pdf_pages": [
+      504,
+      505
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC226",
+    "name": "TAKAI-UTIMOTO OLEFINATION (TAKAI REACTION)",
+    "printed_pages": [
+      452,
+      453
+    ],
+    "pdf_pages": [
+      506,
+      507
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC227",
+    "name": "TEBBE OLEFINATION / PETASIS-TEBBE OLEFINATION",
+    "printed_pages": [
+      454,
+      455
+    ],
+    "pdf_pages": [
+      508,
+      509
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC228",
+    "name": "TISHCHENKO REACTION",
+    "printed_pages": [
+      456,
+      457
+    ],
+    "pdf_pages": [
+      510,
+      511
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC229",
+    "name": "TSUJI-TROST REACTION / ALLYLATION",
+    "printed_pages": [
+      458,
+      459
+    ],
+    "pdf_pages": [
+      512,
+      513
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC230",
+    "name": "TSUJI-WILKINSON DECARBONYLATION REACTION",
+    "printed_pages": [
+      460,
+      461
+    ],
+    "pdf_pages": [
+      514,
+      515
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC231",
+    "name": "UGI MULTICOMPONENT REACTION",
+    "printed_pages": [
+      462,
+      463
+    ],
+    "pdf_pages": [
+      516,
+      517
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC232",
+    "name": "ULLMANN BIARYL ETHER AND BIARYL AMINE SYNTHESIS / CONDENSATION",
+    "printed_pages": [
+      464,
+      465
+    ],
+    "pdf_pages": [
+      518,
+      519
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC233",
+    "name": "ULLMANN REACTION / COUPLING / BIARYL SYNTHESIS",
+    "printed_pages": [
+      466,
+      467
+    ],
+    "pdf_pages": [
+      520,
+      521
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC234",
+    "name": "VILSMEIER-HAACK FORMYLATION",
+    "printed_pages": [
+      468,
+      469
+    ],
+    "pdf_pages": [
+      522,
+      523
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC235",
+    "name": "VINYLCYCLOPROPANE-CYCLOPENTENE REARRANGEMENT",
+    "printed_pages": [
+      470,
+      471
+    ],
+    "pdf_pages": [
+      524,
+      525
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC236",
+    "name": "VON PECHMANN REACTION",
+    "printed_pages": [
+      472,
+      473
+    ],
+    "pdf_pages": [
+      526,
+      527
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC237",
+    "name": "WACKER OXIDATION",
+    "printed_pages": [
+      474,
+      475
+    ],
+    "pdf_pages": [
+      528,
+      529
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC238",
+    "name": "WAGNER-MEERWEIN REARRANGEMENT",
+    "printed_pages": [
+      476,
+      477
+    ],
+    "pdf_pages": [
+      530,
+      531
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC239",
+    "name": "WEINREB KETONE SYNTHESIS",
+    "printed_pages": [
+      478,
+      479
+    ],
+    "pdf_pages": [
+      532,
+      533
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC240",
+    "name": "WHARTON FRAGMENTATION",
+    "printed_pages": [
+      480,
+      481
+    ],
+    "pdf_pages": [
+      534,
+      535
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC241",
+    "name": "WHARTON OLEFIN SYNTHESIS (WHARTON TRANSPOSITION)",
+    "printed_pages": [
+      482,
+      483
+    ],
+    "pdf_pages": [
+      536,
+      537
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC242",
+    "name": "WILLIAMSON ETHER SYNTHESIS",
+    "printed_pages": [
+      484,
+      485
+    ],
+    "pdf_pages": [
+      538,
+      539
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC243",
+    "name": "WITTIG REACTION",
+    "printed_pages": [
+      486,
+      487
+    ],
+    "pdf_pages": [
+      540,
+      541
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC244",
+    "name": "WITTIG REACTION - SCHLOSSER MODIFICATION",
+    "printed_pages": [
+      488,
+      489
+    ],
+    "pdf_pages": [
+      542,
+      543
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC245",
+    "name": "WITTIG-[1,2]- AND [2,3]-REARRANGEMENT",
+    "printed_pages": [
+      490,
+      491
+    ],
+    "pdf_pages": [
+      544,
+      545
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC246",
+    "name": "WOHL-ZIEGLER BROMINATION",
+    "printed_pages": [
+      492,
+      493
+    ],
+    "pdf_pages": [
+      546,
+      547
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC247",
+    "name": "WOLFF REARRANGEMENT",
+    "printed_pages": [
+      494,
+      495
+    ],
+    "pdf_pages": [
+      548,
+      549
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC248",
+    "name": "WOLFF-KISHNER REDUCTION",
+    "printed_pages": [
+      496,
+      497
+    ],
+    "pdf_pages": [
+      550,
+      551
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC249",
+    "name": "WURTZ COUPLING",
+    "printed_pages": [
+      498,
+      499
+    ],
+    "pdf_pages": [
+      552,
+      553
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  },
+  {
+    "entry_id": "KCC250",
+    "name": "YAMAGUCHI MACROLACTONIZATION",
+    "printed_pages": [
+      500,
+      501
+    ],
+    "pdf_pages": [
+      554,
+      555
+    ],
+    "reading_status": "indexed",
+    "rule_ids": []
+  }
+]
