@@ -14,6 +14,19 @@
       "applicability": {"reported_scope": ["C2 alkylation of acetoacetic esters with primary or secondary alkyl, allyl, or benzyl electrophiles"], "exclusions": ["This record does not encode the subsequent hydrolysis/decarboxylation step"], "selectivity": []},
       "tests": [{"kind": "source_scheme_replay_with_constructed_R_group", "status": "pass", "reactants": ["CC(=O)CC(=O)OC", "CCBr"], "products": ["CCC(C(C)=O)C(=O)OC"]}],
       "limitations": ["The book scheme uses a generic R2-X drawing; the bromoethane instance is constructed for replay and is not claimed as a reported substrate example.", "Leaving-group atom map 10 is intentionally deleted from the product; strict SMIRKS audit remains pending."]
+    },
+    {
+      "rule_id": "LSM-SRC-002",
+      "name": "Arbuzov reaction — phosphite to phosphonate",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[P:1]([O:2][C:3])([O:4][C:5])[O:6][C:7].[C:8][Br:9]>>[P:1](=[O:6])([O:2][C:3])([O:4][C:5])[C:8]",
+      "source": {"book": "Strategic Applications of Named Reactions in Organic Synthesis", "authors": "Laszlo Kurti; Barbara Czako", "pdf_pages": [70, 71], "printed_pages": [16, 17], "entry_id": "KCC008", "scheme": "trialkyl phosphite plus primary alkyl halide"},
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "PDF page 70 gives the generic trialkyl phosphite / primary bromide or iodide transformation and its SN2 description; methyl phosphite and bromoethane instantiate R groups for replay.",
+      "conditions": {"reagents": ["heat"], "workup": null},
+      "applicability": {"reported_scope": ["mainly primary alkyl bromides and iodides"], "exclusions": ["Aryl and alkenyl halides are described as unreactive; secondary and tertiary halides may eliminate or fail"], "selectivity": []},
+      "tests": [{"kind": "source_scheme_replay_with_constructed_R_group", "status": "pass", "reactants": ["COP(OC)OC", "CCBr"], "products": ["CCP(=O)(OC)OC"]}],
+      "limitations": ["The R groups are constructed from the generic scheme and are not claimed as a specific reported substrate example.", "Leaving-group and displaced alkoxy maps are deleted; strict SMIRKS audit remains pending."]
     }
   ]
 }
