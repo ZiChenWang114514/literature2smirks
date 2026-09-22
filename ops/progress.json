@@ -8,8 +8,8 @@
   "rules_tested": 100,
   "reading_completed": false,
   "skill_completed": false,
-  "github_pushed": false,
-  "readme_verified": false,
+  "github_pushed": true,
+  "readme_verified": true,
   "next_actions": [
     "Read all 250 two-page reaction chapters plus introductory, appendix and reference sections in bounded batches",
     "Render and visually inspect source schemes before declaring structures verified",
