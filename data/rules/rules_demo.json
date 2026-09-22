@@ -35,7 +35,28 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-002",
@@ -70,7 +91,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-003",
@@ -105,7 +140,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-004",
@@ -140,7 +194,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-005",
@@ -175,7 +248,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-006",
@@ -210,7 +302,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-007",
@@ -245,7 +351,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-008",
@@ -280,7 +406,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-009",
@@ -315,7 +458,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2,
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-010",
@@ -350,7 +512,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-011",
@@ -385,7 +567,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-012",
@@ -420,7 +622,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2,
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-013",
@@ -455,7 +676,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2,
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-014",
@@ -490,7 +730,28 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-015",
@@ -525,7 +786,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-016",
@@ -560,7 +838,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          4
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-017",
@@ -595,7 +892,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-018",
@@ -630,7 +944,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2,
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-019",
@@ -665,7 +998,23 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-020",
@@ -700,7 +1049,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-021",
@@ -735,7 +1101,28 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-022",
@@ -770,7 +1157,29 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-023",
@@ -805,7 +1214,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-024",
@@ -840,7 +1266,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-025",
@@ -875,7 +1318,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-026",
@@ -910,7 +1373,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-027",
@@ -945,7 +1422,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-028",
@@ -980,7 +1476,28 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-029",
@@ -1015,7 +1532,28 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-030",
@@ -1050,7 +1588,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-031",
@@ -1085,7 +1637,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-032",
@@ -1120,7 +1689,23 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-033",
@@ -1155,7 +1740,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-034",
@@ -1190,7 +1789,23 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-035",
@@ -1225,7 +1840,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2,
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-036",
@@ -1260,7 +1894,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-037",
@@ -1295,7 +1949,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-038",
@@ -1330,7 +1998,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-039",
@@ -1365,7 +2053,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2,
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-040",
@@ -1400,7 +2107,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-041",
@@ -1435,7 +2161,28 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-042",
@@ -1470,7 +2217,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3,
+          4
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-043",
@@ -1505,7 +2271,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-044",
@@ -1540,7 +2326,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-045",
@@ -1575,7 +2381,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-046",
@@ -1610,7 +2436,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-047",
@@ -1645,7 +2485,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-048",
@@ -1680,7 +2537,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-049",
@@ -1715,7 +2592,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-050",
@@ -1750,7 +2647,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-051",
@@ -1785,7 +2696,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-052",
@@ -1820,7 +2745,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-053",
@@ -1855,7 +2794,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-054",
@@ -1890,7 +2843,28 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-055",
@@ -1925,7 +2899,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1
+        ],
+        "unmapped_reactant_maps": [
+          2,
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-056",
@@ -1960,7 +2951,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-057",
@@ -1995,7 +3000,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-058",
@@ -2030,7 +3049,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          4
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-059",
@@ -2065,7 +3103,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-060",
@@ -2100,7 +3152,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-061",
@@ -2135,7 +3201,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2,
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-062",
@@ -2170,7 +3255,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-063",
@@ -2205,7 +3309,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-064",
@@ -2240,7 +3363,28 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-065",
@@ -2275,7 +3419,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-066",
@@ -2310,7 +3468,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-067",
@@ -2345,7 +3522,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-068",
@@ -2380,7 +3576,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-069",
@@ -2415,7 +3625,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-070",
@@ -2450,7 +3679,29 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-071",
@@ -2485,7 +3736,28 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-072",
@@ -2520,7 +3792,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-073",
@@ -2555,7 +3846,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-074",
@@ -2590,7 +3900,23 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-075",
@@ -2625,7 +3951,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3,
+          4
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-076",
@@ -2660,7 +4005,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-077",
@@ -2695,7 +4054,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-078",
@@ -2730,7 +4109,27 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-079",
@@ -2765,7 +4164,23 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-080",
@@ -2800,7 +4215,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-081",
@@ -2835,7 +4267,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-082",
@@ -2870,7 +4321,28 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-083",
@@ -2905,7 +4377,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-084",
@@ -2940,7 +4429,29 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-085",
@@ -2975,7 +4486,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-086",
@@ -3010,7 +4538,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-087",
@@ -3045,7 +4590,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-088",
@@ -3080,7 +4639,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-089",
@@ -3115,7 +4691,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-090",
@@ -3150,7 +4743,23 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-091",
@@ -3185,7 +4794,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-092",
@@ -3220,7 +4846,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-093",
@@ -3255,7 +4898,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2,
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-094",
@@ -3290,7 +4952,23 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-095",
@@ -3325,7 +5003,23 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-096",
@@ -3360,7 +5054,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     },
     {
       "rule_id": "LSM-097",
@@ -3395,7 +5103,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          4
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-098",
@@ -3430,7 +5157,26 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3,
+          4
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-099",
@@ -3465,7 +5211,24 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3
+        ],
+        "product_maps": [
+          1,
+          3
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     },
     {
       "rule_id": "LSM-100",
@@ -3500,7 +5263,21 @@
           "error": null
         }
       ],
-      "validation_status": "pass"
+      "validation_status": "pass",
+      "strict_smirks_eligible": true,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2
+        ],
+        "product_maps": [
+          1,
+          2
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "pass"
+      }
     }
   ],
   "validation": {

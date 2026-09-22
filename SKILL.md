@@ -50,6 +50,8 @@ metadata:
 
 RDKit 的反应语法是由 SMARTS 派生的 reaction SMARTS；它不等同于严格 SMIRKS。对需严格 SMIRKS 的交付，额外检查 mapped atoms、显式氢、变化键的 SMILES 原子表达式以及反应物/产物 map 成对关系。对 RDKit 规则，检查 `RunReactants` 产生的产物、sanitize 状态、重复匹配和手性结果。立体中心应分别标注 retention、inversion、creation、loss 或 unspecified。
 
+运行 `ops/classify_dialect.py` 对反应物侧和产物侧 map 集合做结构 lint。存在被删除的 leaving-group map 时，规则可以继续作为 RDKit reaction SMARTS，但不得标为 `strict_smirks_eligible`。
+
 ## 输出组织
 
 - `data/book_index.json`：全源条目索引。
