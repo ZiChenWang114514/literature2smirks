@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "description": "100-entry executable scaffold; not yet the final source-transcribed library.",
+  "description": "100-entry executable scaffold upgraded with source-page evidence locators. These remain general-scheme templates until source structures are transcribed.",
   "rules": [
     {
       "rule_id": "LSM-001",
@@ -21,7 +21,7 @@
         ],
         "entry_id": "KCC001"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -33,6 +33,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -56,6 +65,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          56,
+          57
+        ],
+        "source_printed_pages": [
+          2,
+          3
+        ],
+        "source_text_sha256": "1235a8f9f812c70dfb74174f800b7f78f175291b0ab62094f264e199dd4c92d1",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6506,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -77,7 +101,7 @@
         ],
         "entry_id": "KCC002"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -89,6 +113,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -105,6 +137,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          58,
+          59
+        ],
+        "source_printed_pages": [
+          4,
+          5
+        ],
+        "source_text_sha256": "80f4085cc89e431a413fb47afa0ed388982a3ede38c81bfb035cd15deaff8791",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6104,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -126,7 +173,7 @@
         ],
         "entry_id": "KCC003"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -138,6 +185,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -159,6 +215,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          60,
+          61
+        ],
+        "source_printed_pages": [
+          6,
+          7
+        ],
+        "source_text_sha256": "a19296a59d4cbbe8439b910174ecf8c5202750194dbe16ee0c32cd931ab06b4c",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5339,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -180,7 +251,7 @@
         ],
         "entry_id": "KCC004"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -192,6 +263,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -213,6 +293,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          62,
+          63
+        ],
+        "source_printed_pages": [
+          8,
+          9
+        ],
+        "source_text_sha256": "f44d878f075869c2b721fe286942f8d3d3b757401ed1e4d18550b9f529c417e5",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5777,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -234,7 +329,7 @@
         ],
         "entry_id": "KCC005"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -246,6 +341,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -267,6 +371,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          64,
+          65
+        ],
+        "source_printed_pages": [
+          10,
+          11
+        ],
+        "source_text_sha256": "14545473455ba8bf0107f7af9e1932a88d3111a4f9fff17a33574045270ca1df",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4376,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -288,7 +407,7 @@
         ],
         "entry_id": "KCC006"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -300,6 +419,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -316,6 +443,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          66,
+          67
+        ],
+        "source_printed_pages": [
+          12,
+          13
+        ],
+        "source_text_sha256": "413d82d82021bb0c1ed9db36c04b4d443e4929f90980c338ce44e3a66891afda",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4454,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -337,7 +479,7 @@
         ],
         "entry_id": "KCC007"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -349,6 +491,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -371,6 +521,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          68,
+          69
+        ],
+        "source_printed_pages": [
+          14,
+          15
+        ],
+        "source_text_sha256": "89d60a58d5adc2ea820dc0fb32fd2e1085215ea11bb22e78ebfc3043ff1e2d5d",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 3094,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -392,7 +557,7 @@
         ],
         "entry_id": "KCC008"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -404,6 +569,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -423,6 +597,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          70,
+          71
+        ],
+        "source_printed_pages": [
+          16,
+          17
+        ],
+        "source_text_sha256": "7ea1418931ac7c68435ca831373c1fa50d8488671fb37a255f2043209799a9ea",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6012,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -444,7 +633,7 @@
         ],
         "entry_id": "KCC009"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -456,6 +645,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -477,6 +675,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          72,
+          73
+        ],
+        "source_printed_pages": [
+          18,
+          19
+        ],
+        "source_text_sha256": "f2d7e5980ff7dd611878473d13059270f700fb35ddd91531f3a9b7ba789ca374",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5011,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -498,7 +711,7 @@
         ],
         "entry_id": "KCC010"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -510,6 +723,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -532,6 +753,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          74,
+          75
+        ],
+        "source_printed_pages": [
+          20,
+          21
+        ],
+        "source_text_sha256": "2d45f856272721cf97c24152ab9d845e6ec9c6d21a4f5411de41e11741404965",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4391,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -553,7 +789,7 @@
         ],
         "entry_id": "KCC011"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -565,6 +801,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -587,6 +831,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          76,
+          77
+        ],
+        "source_printed_pages": [
+          22,
+          23
+        ],
+        "source_text_sha256": "d5039d2c7ab84900d6535d92d01ccfacd7a8dc04e3e56b48d7abb484308c939a",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5787,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -608,7 +867,7 @@
         ],
         "entry_id": "KCC012"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -620,6 +879,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -641,6 +909,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          78,
+          79
+        ],
+        "source_printed_pages": [
+          24,
+          25
+        ],
+        "source_text_sha256": "93516914890058f5b68e88c48008847f3fc0fa32b104921b9e8f74c23850f56e",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 8231,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -662,7 +945,7 @@
         ],
         "entry_id": "KCC013"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -674,6 +957,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -695,6 +987,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          80,
+          81
+        ],
+        "source_printed_pages": [
+          26,
+          27
+        ],
+        "source_text_sha256": "7d73bbfab426cf5645722b75396ccbb789859c1bcfdb6b7b7899e09fb0270f57",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5651,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -716,7 +1023,7 @@
         ],
         "entry_id": "KCC014"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -728,6 +1035,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -751,6 +1067,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          82,
+          83
+        ],
+        "source_printed_pages": [
+          28,
+          29
+        ],
+        "source_text_sha256": "4211d8e33aabbc5d8be8fadea58e647102530fa6537ff02765bce8a23f59d5e3",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5369,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -772,7 +1103,7 @@
         ],
         "entry_id": "KCC015"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -784,6 +1115,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -803,6 +1143,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          84,
+          85
+        ],
+        "source_printed_pages": [
+          30,
+          31
+        ],
+        "source_text_sha256": "94014970018ab71eb00848539f8deed0f2a9f5e657de344a7196207d62e5331a",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 3115,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -824,7 +1179,7 @@
         ],
         "entry_id": "KCC016"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -836,6 +1191,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -857,6 +1221,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          86,
+          87
+        ],
+        "source_printed_pages": [
+          32,
+          33
+        ],
+        "source_text_sha256": "bd8b9d53898f3a3d9c3ad16ec8f300fa18c854a2e746b9008b4c2cf65831fb74",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 2589,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -878,7 +1257,7 @@
         ],
         "entry_id": "KCC017"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -890,6 +1269,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -909,6 +1297,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          88,
+          89
+        ],
+        "source_printed_pages": [
+          34,
+          35
+        ],
+        "source_text_sha256": "4288f42bd3d01a109098ff14f0f6d2d34897740427b28e80627e72145019eac0",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4332,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -930,7 +1333,7 @@
         ],
         "entry_id": "KCC018"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -942,6 +1345,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -963,6 +1375,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          90,
+          91
+        ],
+        "source_printed_pages": [
+          36,
+          37
+        ],
+        "source_text_sha256": "e11ab172e086eedee7cd79a557c4fcc9df8746c05ee1a49f5a60ec48acec3c03",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5087,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -984,7 +1411,7 @@
         ],
         "entry_id": "KCC019"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -996,6 +1423,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1014,6 +1450,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          92,
+          93
+        ],
+        "source_printed_pages": [
+          38,
+          39
+        ],
+        "source_text_sha256": "a656f89020e50e41d85444c446345493386259bfb56b587b76c0dd1724e53810",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4683,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1035,7 +1486,7 @@
         ],
         "entry_id": "KCC020"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1047,6 +1498,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1066,6 +1526,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          94,
+          95
+        ],
+        "source_printed_pages": [
+          40,
+          41
+        ],
+        "source_text_sha256": "fee9e1f49c2d4dafb646598c8496dbef0b5d98f1a15cfb1bb802868dde7636ca",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5696,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1087,7 +1562,7 @@
         ],
         "entry_id": "KCC021"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1099,6 +1574,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1122,6 +1606,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          96,
+          97
+        ],
+        "source_printed_pages": [
+          42,
+          43
+        ],
+        "source_text_sha256": "c380bf13ecc5d699a5176714157bd77d98908edc8e6450f984d2db56bb496648",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4955,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1143,7 +1642,7 @@
         ],
         "entry_id": "KCC022"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1155,6 +1654,15 @@
           "status": "pass",
           "product_sets": 4,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1179,6 +1687,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          98,
+          99
+        ],
+        "source_printed_pages": [
+          44,
+          45
+        ],
+        "source_text_sha256": "675a249a07e3dae913bcb9e7c5a1376d0685ef00030c16416c5a5ac18b341fed",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4614,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1200,7 +1723,7 @@
         ],
         "entry_id": "KCC023"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1212,6 +1735,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1231,6 +1763,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          100,
+          101
+        ],
+        "source_printed_pages": [
+          46,
+          47
+        ],
+        "source_text_sha256": "7b1d8660a5c14e23d84a4b5a4dcba42978902d54d21d0830a2237d022d72d9cd",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 3965,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1252,7 +1799,7 @@
         ],
         "entry_id": "KCC024"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1264,6 +1811,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1283,6 +1839,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          102,
+          103
+        ],
+        "source_printed_pages": [
+          48,
+          49
+        ],
+        "source_text_sha256": "1f63357c24ff91dfbe40f32d73625f15e405d3075b43ea88f068c7672dbdc867",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4403,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1304,7 +1875,7 @@
         ],
         "entry_id": "KCC025"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1316,6 +1887,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1338,6 +1917,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          104,
+          105
+        ],
+        "source_printed_pages": [
+          50,
+          51
+        ],
+        "source_text_sha256": "2fe04525cb20fd1c3453865b31db16889dce6392ebaa071151d823fccdb24366",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4059,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1359,7 +1953,7 @@
         ],
         "entry_id": "KCC026"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1371,6 +1965,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1387,6 +1989,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          106,
+          107
+        ],
+        "source_printed_pages": [
+          52,
+          53
+        ],
+        "source_text_sha256": "aa70f0a6f73ce9ae88cd69650274275d8e3d5f5db72361d92b8eef41a8511f87",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4414,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1408,7 +2025,7 @@
         ],
         "entry_id": "KCC027"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1420,6 +2037,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1441,6 +2067,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          108,
+          109
+        ],
+        "source_printed_pages": [
+          54,
+          55
+        ],
+        "source_text_sha256": "cca03f7fd4a38eef553738caa0e663f44c02fdc782e9ee343894e3bc7a0bdc87",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4495,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1462,7 +2103,7 @@
         ],
         "entry_id": "KCC028"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1474,6 +2115,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1497,6 +2147,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          110,
+          111
+        ],
+        "source_printed_pages": [
+          56,
+          57
+        ],
+        "source_text_sha256": "4a54bc362933843b24e354e35e128e26050a4be0f28dfe663fd6f8a15b5098c0",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 3943,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1518,7 +2183,7 @@
         ],
         "entry_id": "KCC029"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1530,6 +2195,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1553,6 +2227,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          112,
+          113
+        ],
+        "source_printed_pages": [
+          58,
+          59
+        ],
+        "source_text_sha256": "1c1764e677483254e3f2b815031af60499366b6502b7fc55f045559f01c81fa0",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6358,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1574,7 +2263,7 @@
         ],
         "entry_id": "KCC030"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1586,6 +2275,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1602,6 +2299,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          114,
+          115
+        ],
+        "source_printed_pages": [
+          60,
+          61
+        ],
+        "source_text_sha256": "ab14298aaee6ea4e294118fba45e93bc432c4f5b9d7ca843482cd7e3a2a0c02e",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4310,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1623,7 +2335,7 @@
         ],
         "entry_id": "KCC031"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1635,6 +2347,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1654,6 +2375,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          116,
+          117
+        ],
+        "source_printed_pages": [
+          62,
+          63
+        ],
+        "source_text_sha256": "ce2333bc03da9097ecc78d20c00df69920986b3f6fa963bb76e8d08e820c940b",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4000,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1675,7 +2411,7 @@
         ],
         "entry_id": "KCC032"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1687,6 +2423,15 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1705,6 +2450,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          118,
+          119
+        ],
+        "source_printed_pages": [
+          64,
+          65
+        ],
+        "source_text_sha256": "2e6fe4375f6ff50baf8b19e247f620ca2c952e896047a20074ca1f2560a167b8",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4766,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1726,7 +2486,7 @@
         ],
         "entry_id": "KCC033"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1738,6 +2498,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1754,6 +2522,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          120,
+          121
+        ],
+        "source_printed_pages": [
+          66,
+          67
+        ],
+        "source_text_sha256": "9fabc79b049477562aa64cbadb49757e0f38e7f4b6b62bed76e660afd563e793",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4428,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1775,7 +2558,7 @@
         ],
         "entry_id": "KCC034"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1787,6 +2570,15 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1805,6 +2597,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          122,
+          123
+        ],
+        "source_printed_pages": [
+          68,
+          69
+        ],
+        "source_text_sha256": "9dc01e67d36a143b73482375b81af904f4ed1c62ecca6043813db0ca6636f6b8",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5706,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1826,7 +2633,7 @@
         ],
         "entry_id": "KCC035"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1838,6 +2645,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1859,6 +2675,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          124,
+          125
+        ],
+        "source_printed_pages": [
+          70,
+          71
+        ],
+        "source_text_sha256": "f65649f21e503f88976af8a2a2938eebbf66a84590c57e5609ce1de78a2b03ff",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4911,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1880,7 +2711,7 @@
         ],
         "entry_id": "KCC036"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1892,6 +2723,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1914,6 +2753,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          126,
+          127
+        ],
+        "source_printed_pages": [
+          72,
+          73
+        ],
+        "source_text_sha256": "6c586fda4758895388d4d0ccbf38f7e76fb1b883dc4d843f1b553a949b835350",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4671,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1935,7 +2789,7 @@
         ],
         "entry_id": "KCC037"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1947,6 +2801,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -1963,6 +2825,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          128,
+          129
+        ],
+        "source_printed_pages": [
+          74,
+          75
+        ],
+        "source_text_sha256": "0661395aed72538b71ea349927c591a1895163815ff709b74650f6c9531ba958",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5085,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -1984,7 +2861,7 @@
         ],
         "entry_id": "KCC038"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -1996,6 +2873,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2018,6 +2903,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          130,
+          131
+        ],
+        "source_printed_pages": [
+          76,
+          77
+        ],
+        "source_text_sha256": "b112ee1d96001c0c711d1e2548d992f4b69db71c5c318657b9f03661eb7010ce",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4783,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2039,7 +2939,7 @@
         ],
         "entry_id": "KCC039"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2051,6 +2951,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2072,6 +2981,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          132,
+          133
+        ],
+        "source_printed_pages": [
+          78,
+          79
+        ],
+        "source_text_sha256": "0fc93350a458968fa35226af82300c45d43937c4e03dd789dbd8934591b86527",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4250,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2093,7 +3017,7 @@
         ],
         "entry_id": "KCC040"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2105,6 +3029,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2126,6 +3059,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          134,
+          135
+        ],
+        "source_printed_pages": [
+          80,
+          81
+        ],
+        "source_text_sha256": "df658fe8bd7b0e7ebd38b2c6b85e89e9c7f9fa1036f83be028173b6ba1bebdd4",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5142,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2147,7 +3095,7 @@
         ],
         "entry_id": "KCC041"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2159,6 +3107,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2182,6 +3139,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          136,
+          137
+        ],
+        "source_printed_pages": [
+          82,
+          83
+        ],
+        "source_text_sha256": "7eca74faaa8215e90114573f22a205f3907d6e337bfbc433c3e9b5992c73c502",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4881,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2203,7 +3175,7 @@
         ],
         "entry_id": "KCC042"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2215,6 +3187,15 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2236,6 +3217,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          138,
+          139
+        ],
+        "source_printed_pages": [
+          84,
+          85
+        ],
+        "source_text_sha256": "ccc0024226971da37668c7d7bb11c105d8b178998446e0cfdf583f281ab86127",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 3708,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2257,7 +3253,7 @@
         ],
         "entry_id": "KCC043"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2269,6 +3265,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2291,6 +3295,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          140,
+          141
+        ],
+        "source_printed_pages": [
+          86,
+          87
+        ],
+        "source_text_sha256": "3c4f3b38cae94d5f936c17201cf7fb07ba05825674f21a850b62a9bc59ac3baf",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5049,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2312,7 +3331,7 @@
         ],
         "entry_id": "KCC044"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2324,6 +3343,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2346,6 +3373,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          142,
+          143
+        ],
+        "source_printed_pages": [
+          88,
+          89
+        ],
+        "source_text_sha256": "f0e0ea3b778b89f0fb2d6b02fdf1f9014fc3cdd357f2289ae0556380c46d5d27",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 7124,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2367,7 +3409,7 @@
         ],
         "entry_id": "KCC045"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2379,6 +3421,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2401,6 +3451,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          144,
+          145
+        ],
+        "source_printed_pages": [
+          90,
+          91
+        ],
+        "source_text_sha256": "44220c44d710b9f17bcc2c6d2689159e560188a8d7e7421996cb7f665442dce1",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 7015,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2422,7 +3487,7 @@
         ],
         "entry_id": "KCC046"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2434,6 +3499,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2450,6 +3523,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          146,
+          147
+        ],
+        "source_printed_pages": [
+          92,
+          93
+        ],
+        "source_text_sha256": "045f17be51f88adb38aa9c0f6e8d3fd4358291b3a1d5056d8f151f9270913722",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5869,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2471,7 +3559,7 @@
         ],
         "entry_id": "KCC047"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2483,6 +3571,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2502,6 +3599,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          148,
+          149
+        ],
+        "source_printed_pages": [
+          94,
+          95
+        ],
+        "source_text_sha256": "332abbe519590d04109afa8271a50fc02b925580b1672d4ea72ce426228fc3f5",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4214,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2523,7 +3635,7 @@
         ],
         "entry_id": "KCC048"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2535,6 +3647,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2557,6 +3677,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          150,
+          151
+        ],
+        "source_printed_pages": [
+          96,
+          97
+        ],
+        "source_text_sha256": "58be0829d3285d2524e83eacd9d69de0aa5df8e25dc847c08ab57f4ce7c6831a",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5455,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2578,7 +3713,7 @@
         ],
         "entry_id": "KCC049"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2590,6 +3725,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2612,6 +3755,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          152,
+          153
+        ],
+        "source_printed_pages": [
+          98,
+          99
+        ],
+        "source_text_sha256": "4c5f29b446dbd6b6ddd196def898f13b7cf8c163db983692122e1e65f628bd79",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6064,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2633,7 +3791,7 @@
         ],
         "entry_id": "KCC050"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2645,6 +3803,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2661,6 +3827,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          154,
+          155
+        ],
+        "source_printed_pages": [
+          100,
+          101
+        ],
+        "source_text_sha256": "34e1cd698e66f3f35ba7343edaa6e02a50b5fcf188da2adad1af6818fc70bacd",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5303,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2682,7 +3863,7 @@
         ],
         "entry_id": "KCC051"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2694,6 +3875,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2710,6 +3899,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          156,
+          157
+        ],
+        "source_printed_pages": [
+          102,
+          103
+        ],
+        "source_text_sha256": "c0a869fce52fe33cf503fe79641eb6142ecd127e56683e3c3e209bfc74f7044a",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4912,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2731,7 +3935,7 @@
         ],
         "entry_id": "KCC052"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2743,6 +3947,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2759,6 +3971,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          158,
+          159
+        ],
+        "source_printed_pages": [
+          104,
+          105
+        ],
+        "source_text_sha256": "2f8339fe66df4b851691e1fe287b0a8bc877282aa7c13919d721bc18b7c64c80",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6464,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2780,7 +4007,7 @@
         ],
         "entry_id": "KCC053"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2792,6 +4019,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2808,6 +4043,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          160,
+          161
+        ],
+        "source_printed_pages": [
+          106,
+          107
+        ],
+        "source_text_sha256": "1f340826a89865757ad7b950657f96836278a1317a67fabda0090bc4db4ac518",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5348,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2829,7 +4079,7 @@
         ],
         "entry_id": "KCC054"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2841,6 +4091,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2864,6 +4123,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          162,
+          163
+        ],
+        "source_printed_pages": [
+          108,
+          109
+        ],
+        "source_text_sha256": "516eb8c6f53f8da1e95a731090ab985bf44badee3a617b10f9fa449c8b8c2550",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6152,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2885,7 +4159,7 @@
         ],
         "entry_id": "KCC055"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2897,6 +4171,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2916,6 +4198,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          164,
+          165
+        ],
+        "source_printed_pages": [
+          110,
+          111
+        ],
+        "source_text_sha256": "cf842d2fb09c2849af031672f51f3c8a6cc90bea3eba43599b0ffb2efc387f9e",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5448,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2937,7 +4234,7 @@
         ],
         "entry_id": "KCC056"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2949,6 +4246,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -2965,6 +4270,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          166,
+          167
+        ],
+        "source_printed_pages": [
+          112,
+          113
+        ],
+        "source_text_sha256": "6001f1a38e1152665d6e7bdf717b8f1d429b39d24ccae9007001f1f3406340ba",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4996,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -2986,7 +4306,7 @@
         ],
         "entry_id": "KCC057"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -2998,6 +4318,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3014,6 +4342,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          168,
+          169
+        ],
+        "source_printed_pages": [
+          114,
+          115
+        ],
+        "source_text_sha256": "77f761f7e5c4e9de2098028de8693c4b4f3c9d55ecf055e073fad6afa8c14fa1",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4593,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3035,7 +4378,7 @@
         ],
         "entry_id": "KCC058"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3047,6 +4390,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3068,6 +4420,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          170,
+          171
+        ],
+        "source_printed_pages": [
+          116,
+          117
+        ],
+        "source_text_sha256": "26c94d8b04168ea45a6437ae170f3bf95dadab5f0b8e443b559147dc91bd8874",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5068,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3089,7 +4456,7 @@
         ],
         "entry_id": "KCC059"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3101,6 +4468,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3117,6 +4492,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          172,
+          173
+        ],
+        "source_printed_pages": [
+          118,
+          119
+        ],
+        "source_text_sha256": "53aae5f5de01cc1e737ab04647368e70590ea125ac9a71e2450eb51fadfc885c",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4375,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3138,7 +4528,7 @@
         ],
         "entry_id": "KCC060"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3150,6 +4540,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3166,6 +4564,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          174,
+          175
+        ],
+        "source_printed_pages": [
+          120,
+          121
+        ],
+        "source_text_sha256": "f04fec272db1bd108364d019a4b239256dee8090d6e7cd3c716cbc98a2e90a35",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6919,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3187,7 +4600,7 @@
         ],
         "entry_id": "KCC061"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3199,6 +4612,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3220,6 +4642,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          176,
+          177
+        ],
+        "source_printed_pages": [
+          122,
+          123
+        ],
+        "source_text_sha256": "5397cde687d3d3085079c5904230f8e8a2ba527dfa7972558502fad85ad08728",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6639,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3241,7 +4678,7 @@
         ],
         "entry_id": "KCC062"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3253,6 +4690,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3274,6 +4720,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          178,
+          179
+        ],
+        "source_printed_pages": [
+          124,
+          125
+        ],
+        "source_text_sha256": "f7e6707abd895970eb314a7ebc4c1b798257db87b119c4e0722360f75e15caf4",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6767,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3295,7 +4756,7 @@
         ],
         "entry_id": "KCC063"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3307,6 +4768,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3328,6 +4798,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          180,
+          181
+        ],
+        "source_printed_pages": [
+          126,
+          127
+        ],
+        "source_text_sha256": "1b94ab7660f6ec272e53724ae16e9592f9c93eca0e9182650e1ddc46ddc949ee",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5247,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3349,7 +4834,7 @@
         ],
         "entry_id": "KCC064"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3361,6 +4846,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3384,6 +4878,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          182,
+          183
+        ],
+        "source_printed_pages": [
+          128,
+          129
+        ],
+        "source_text_sha256": "12ca8d8aaa59d3482b547dc25d6f73525f1764af447af5770ad680737c4a9dd2",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4373,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3405,7 +4914,7 @@
         ],
         "entry_id": "KCC065"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3417,6 +4926,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3433,6 +4950,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          184,
+          185
+        ],
+        "source_printed_pages": [
+          130,
+          131
+        ],
+        "source_text_sha256": "b142fb54ec86a70ce9d63e6652cf4c63c27e474c5089bbe2a96d8a5555edf69a",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4689,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3454,7 +4986,7 @@
         ],
         "entry_id": "KCC066"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3466,6 +4998,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3487,6 +5028,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          186,
+          187
+        ],
+        "source_printed_pages": [
+          132,
+          133
+        ],
+        "source_text_sha256": "1a2b02c89cbc372c8bb3c768ddf984556fed5b790d619587fe6d38a0e9594b84",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6570,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3508,7 +5064,7 @@
         ],
         "entry_id": "KCC067"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3520,6 +5076,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3541,6 +5106,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          188,
+          189
+        ],
+        "source_printed_pages": [
+          134,
+          135
+        ],
+        "source_text_sha256": "756b19549e910a6509f29736fedaefc4e8085e4522109ff87ed1f17ce572f32d",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4870,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3562,7 +5142,7 @@
         ],
         "entry_id": "KCC068"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3574,6 +5154,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3590,6 +5178,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          190,
+          191
+        ],
+        "source_printed_pages": [
+          136,
+          137
+        ],
+        "source_text_sha256": "2c9564be7c7a1bc225769559185cc80c716a8db46704e285250a6d559bd87415",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5689,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3611,7 +5214,7 @@
         ],
         "entry_id": "KCC069"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3623,6 +5226,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3644,6 +5256,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          192,
+          193
+        ],
+        "source_printed_pages": [
+          138,
+          139
+        ],
+        "source_text_sha256": "0db5628d5104601482dede7d4450ad12d03651f9a5889ef623b78f327fd93145",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5113,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3665,7 +5292,7 @@
         ],
         "entry_id": "KCC070"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3677,6 +5304,15 @@
           "status": "pass",
           "product_sets": 4,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3701,6 +5337,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          194,
+          195
+        ],
+        "source_printed_pages": [
+          140,
+          141
+        ],
+        "source_text_sha256": "7a172687836ffcb83f74879dafd69a9613b1c950980980d97579d428b4f90f5c",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5404,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3722,7 +5373,7 @@
         ],
         "entry_id": "KCC071"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3734,6 +5385,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3757,6 +5417,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          196,
+          197
+        ],
+        "source_printed_pages": [
+          142,
+          143
+        ],
+        "source_text_sha256": "93fbd6a598647ae854ff202371be2140906982ef05b1a2025f5a5852631c236d",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4609,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3778,7 +5453,7 @@
         ],
         "entry_id": "KCC072"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3790,6 +5465,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3811,6 +5495,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          198,
+          199
+        ],
+        "source_printed_pages": [
+          144,
+          145
+        ],
+        "source_text_sha256": "6a204b84afb2aaee6f7fa720ffe910bca87091360c8c5daa8e9d7542fe8d4813",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4528,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3832,7 +5531,7 @@
         ],
         "entry_id": "KCC073"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3844,6 +5543,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3865,6 +5573,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          200,
+          201
+        ],
+        "source_printed_pages": [
+          146,
+          147
+        ],
+        "source_text_sha256": "09a56ba42f9f4d8b51f224620680d08463247ce73df0e735bf7b4645ae4d369d",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6356,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3886,7 +5609,7 @@
         ],
         "entry_id": "KCC074"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3898,6 +5621,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3916,6 +5648,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          202,
+          203
+        ],
+        "source_printed_pages": [
+          148,
+          149
+        ],
+        "source_text_sha256": "7d3d207293717efd8bc338d036ef9902de109d980fb5d8e5a418789c76c74e62",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4739,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3937,7 +5684,7 @@
         ],
         "entry_id": "KCC075"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -3949,6 +5696,15 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -3970,6 +5726,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          204,
+          205
+        ],
+        "source_printed_pages": [
+          150,
+          151
+        ],
+        "source_text_sha256": "86215318a319ff273f0b1dbcdb752bc57efcf5d7ea014c5678e7b5f127852bd7",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5384,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -3991,7 +5762,7 @@
         ],
         "entry_id": "KCC076"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4003,6 +5774,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4019,6 +5798,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          206,
+          207
+        ],
+        "source_printed_pages": [
+          152,
+          153
+        ],
+        "source_text_sha256": "d3f7abcdffdcb8022d8c9b00d30135dbe3ea13db6252d51a11ea4298fa1c8792",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6188,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4040,7 +5834,7 @@
         ],
         "entry_id": "KCC077"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4052,6 +5846,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4074,6 +5876,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          208,
+          209
+        ],
+        "source_printed_pages": [
+          154,
+          155
+        ],
+        "source_text_sha256": "f34919dadff02ba8e549efef3319fc436868eea378d57a5ebd0ee27bed7036c1",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4941,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4095,7 +5912,7 @@
         ],
         "entry_id": "KCC078"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4107,6 +5924,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4129,6 +5954,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          210,
+          211
+        ],
+        "source_printed_pages": [
+          156,
+          157
+        ],
+        "source_text_sha256": "de3a924b15d0a2a325b8d3b84a4ae2c7afaed6785a824c44b471b659b52bf9b0",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5264,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4150,7 +5990,7 @@
         ],
         "entry_id": "KCC079"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4162,6 +6002,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4180,6 +6028,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          212,
+          213
+        ],
+        "source_printed_pages": [
+          158,
+          159
+        ],
+        "source_text_sha256": "76d76c39b5043ba62df7abca04f97733c95cbf2489278f2878edab59c6e916a9",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5607,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4201,7 +6064,7 @@
         ],
         "entry_id": "KCC080"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4213,6 +6076,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4232,6 +6104,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          214,
+          215
+        ],
+        "source_printed_pages": [
+          160,
+          161
+        ],
+        "source_text_sha256": "663c449798622872130dcd81280469907647f70fdb7d36e98307076c11569622",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6969,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4253,7 +6140,7 @@
         ],
         "entry_id": "KCC081"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4265,6 +6152,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4286,6 +6182,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          216,
+          217
+        ],
+        "source_printed_pages": [
+          162,
+          163
+        ],
+        "source_text_sha256": "5b20cb7220926c151d6de7a89d017521786e3dc201a67485bffe2df0ebb18766",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6567,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4307,7 +6218,7 @@
         ],
         "entry_id": "KCC082"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4319,6 +6230,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4342,6 +6262,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          218,
+          219
+        ],
+        "source_printed_pages": [
+          164,
+          165
+        ],
+        "source_text_sha256": "e6200fa2e08ef2ad278910f829622f81ec8d945c5f4de6e495c3afce164f23f0",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5256,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4363,7 +6298,7 @@
         ],
         "entry_id": "KCC083"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4375,6 +6310,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4394,6 +6338,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          220,
+          221
+        ],
+        "source_printed_pages": [
+          166,
+          167
+        ],
+        "source_text_sha256": "a7a5b8963a67c9a500ed206f4c45cc1dc5616a0b5dbc36ed34877a546032b8bc",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5604,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4415,7 +6374,7 @@
         ],
         "entry_id": "KCC084"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4427,6 +6386,15 @@
           "status": "pass",
           "product_sets": 4,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4451,6 +6419,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          222,
+          223
+        ],
+        "source_printed_pages": [
+          168,
+          169
+        ],
+        "source_text_sha256": "3ebe0705b87371f875c35862833ea8b68c4ba231a5842bc9e803fdb7b6a4ed3a",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5767,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4472,7 +6455,7 @@
         ],
         "entry_id": "KCC085"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4484,6 +6467,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4503,6 +6495,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          224,
+          225
+        ],
+        "source_printed_pages": [
+          170,
+          171
+        ],
+        "source_text_sha256": "e1f4a41431ad407b4680681cdfedaf7c1c8bb396a67f1f025aa70cc98ce61bc2",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4819,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4524,7 +6531,7 @@
         ],
         "entry_id": "KCC086"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4536,6 +6543,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4555,6 +6571,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          226,
+          227
+        ],
+        "source_printed_pages": [
+          172,
+          173
+        ],
+        "source_text_sha256": "02aa95d4cc3580a083d251083c2d211a14103138eeda968a4046c5dee9f0fa03",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5382,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4576,7 +6607,7 @@
         ],
         "entry_id": "KCC087"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4588,6 +6619,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4604,6 +6643,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          228,
+          229
+        ],
+        "source_printed_pages": [
+          174,
+          175
+        ],
+        "source_text_sha256": "a57fd319b3a2d1846df2e93493e870faf4dec1c14ebe2fdddf18c4d89c5c8cb8",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 7694,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4625,7 +6679,7 @@
         ],
         "entry_id": "KCC088"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4637,6 +6691,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4656,6 +6719,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          230,
+          231
+        ],
+        "source_printed_pages": [
+          176,
+          177
+        ],
+        "source_text_sha256": "dfcd76d61392825f182d30db880f6396e004238a42d78ba5777146008c241428",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6086,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4677,7 +6755,7 @@
         ],
         "entry_id": "KCC089"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4689,6 +6767,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4708,6 +6795,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          232,
+          233
+        ],
+        "source_printed_pages": [
+          178,
+          179
+        ],
+        "source_text_sha256": "09fdf5f9090fd1da38674c9019d8e4e5a78203b4f06796aa2d6abffe7fcb79b4",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6827,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4729,7 +6831,7 @@
         ],
         "entry_id": "KCC090"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4741,6 +6843,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4759,6 +6870,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          234,
+          235
+        ],
+        "source_printed_pages": [
+          180,
+          181
+        ],
+        "source_text_sha256": "b69ba1879c87630eeeffe4ea2c573eaf805097f963f8d636968be71c269342fc",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 7042,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4780,7 +6906,7 @@
         ],
         "entry_id": "KCC091"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4792,6 +6918,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4811,6 +6946,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          236,
+          237
+        ],
+        "source_printed_pages": [
+          182,
+          183
+        ],
+        "source_text_sha256": "453fb7545c5d0d5bf32e0f141bb0d947ca582f5a567425eee8350bbcb1968684",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6134,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4832,7 +6982,7 @@
         ],
         "entry_id": "KCC092"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4844,6 +6994,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4863,6 +7022,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          238,
+          239
+        ],
+        "source_printed_pages": [
+          184,
+          185
+        ],
+        "source_text_sha256": "73a1ff7b679bec8eae60155249bab4f845c590cd1816aa53bd6f6d43b1825968",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6228,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4884,7 +7058,7 @@
         ],
         "entry_id": "KCC093"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4896,6 +7070,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4917,6 +7100,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          240,
+          241
+        ],
+        "source_printed_pages": [
+          186,
+          187
+        ],
+        "source_text_sha256": "17f3695b255ec744b6e74ea16018b3a9de416b08c4220cefc83369cf402addf2",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 5380,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4938,7 +7136,7 @@
         ],
         "entry_id": "KCC094"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -4950,6 +7148,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -4968,6 +7175,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          242,
+          243
+        ],
+        "source_printed_pages": [
+          188,
+          189
+        ],
+        "source_text_sha256": "3f87c0a714d2a9c891e60e01bca0a99c15cc1f5b69a700c9c129922ec65234fd",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6431,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -4989,7 +7211,7 @@
         ],
         "entry_id": "KCC095"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -5001,6 +7223,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -5019,6 +7249,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          244,
+          245
+        ],
+        "source_printed_pages": [
+          190,
+          191
+        ],
+        "source_text_sha256": "023fd9af0e4ba973dea576e755d051af8c6aed8b0c09b732d3b82a8329d5fca2",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4931,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -5040,7 +7285,7 @@
         ],
         "entry_id": "KCC096"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -5052,6 +7297,14 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -5068,6 +7321,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          246,
+          247
+        ],
+        "source_printed_pages": [
+          192,
+          193
+        ],
+        "source_text_sha256": "ed33648cee0509f58800e71bded973f47cb1db7d31bae61f730d0406bb6cdd75",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 7068,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -5089,7 +7357,7 @@
         ],
         "entry_id": "KCC097"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -5101,6 +7369,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -5122,6 +7399,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          248,
+          249
+        ],
+        "source_printed_pages": [
+          194,
+          195
+        ],
+        "source_text_sha256": "fdfe78ef5c8332a6f31c91337af2267ae8e0d1b03590696ce019ebb9e1702f00",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6605,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -5143,7 +7435,7 @@
         ],
         "entry_id": "KCC098"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -5155,6 +7447,15 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -5176,6 +7477,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          250,
+          251
+        ],
+        "source_printed_pages": [
+          196,
+          197
+        ],
+        "source_text_sha256": "304bf61fbe18248514c5bd8205877ef178a1f9654b0b467b1634a9d88b94ea9d",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6667,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -5197,7 +7513,7 @@
         ],
         "entry_id": "KCC099"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -5209,6 +7525,15 @@
           "status": "pass",
           "product_sets": 1,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -5228,6 +7553,21 @@
         ],
         "product_only_maps": [],
         "status": "needs_review"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          252,
+          253
+        ],
+        "source_printed_pages": [
+          198,
+          199
+        ],
+        "source_text_sha256": "7879580198ff814c48c98be827d954626015ccedf1feb496800facbcb7fb422d",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 4920,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     },
     {
@@ -5249,7 +7589,7 @@
         ],
         "entry_id": "KCC100"
       },
-      "evidence_status": "constructed_from_general_scheme",
+      "evidence_status": "source_general_scheme",
       "confidence": "demo-low",
       "conditions": null,
       "limitations": [
@@ -5261,6 +7601,14 @@
           "status": "pass",
           "product_sets": 2,
           "error": null
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "validation_status": "pass",
@@ -5277,6 +7625,21 @@
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
         "status": "pass"
+      },
+      "source_evidence": {
+        "source_pdf_pages": [
+          254,
+          255
+        ],
+        "source_printed_pages": [
+          200,
+          201
+        ],
+        "source_text_sha256": "a662ad4f172202b78d0e4eaad7198bde427fe934007446b1a7b6bd9e7c3bf1c1",
+        "source_text_anchor": "chapter title, definition paragraph, and general-scheme region on first chapter page",
+        "source_text_characters": 6138,
+        "source_page_has_selectable_text": true,
+        "evidence_scope": "The named-reaction chapter and its general transformation support the template family; exact substrate graph transcription remains pending."
       }
     }
   ],
@@ -5285,6 +7648,8 @@
     "rules_total": 100,
     "parser_smoke_pass": 100,
     "parser_smoke_fail": 0,
-    "note": "Smoke checks validate parsing and at least one product only; they do not validate literature fidelity."
+    "note": "Smoke checks validate parsing and at least one product only; they do not validate literature fidelity.",
+    "negative_control_pass": 100,
+    "negative_control_fail": 0
   }
 }

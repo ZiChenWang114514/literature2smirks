@@ -26,7 +26,7 @@ metadata:
 4. 计算或人工复核断键、成键、键级和原子属性变化，再决定模板需要保留的局部环境。
 5. 先写窄的 instance template，再根据同一文献给出的底物范围抽象 literature template。文献外推单独标 `hypothesis`。
 6. 用 RDKit `ReactionFromSmarts` 解析并回放至少一个源转录实例；若只有通式，回放只能叫 `constructed_from_general_scheme`。
-7. 生成 JSONL/CSV 与人工审阅报告，报告规则状态：`source_transcribed`、`constructed_from_general_scheme`、`hypothesis`、`rejected`。
+7. 生成 JSONL/CSV 与人工审阅报告，报告规则状态：`source_transcribed`、`source_general_scheme`、`hypothesis`、`rejected`。
 
 ## 最低记录字段
 

@@ -6,6 +6,8 @@
   "source_named_reaction_entries": 250,
   "minimum_tested_rules": 100,
   "rules_tested": 100,
+  "rules_negative_control_pass": 100,
+  "rules_with_source_page_evidence": 100,
   "reading_completed": false,
   "skill_completed": false,
   "github_pushed": true,
