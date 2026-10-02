@@ -3623,9 +3623,12 @@
       503
     ],
     "reading_status": "reviewed_text_and_rendered",
-    "rule_ids": [],
+    "rule_ids": [
+      "LSM-SRC-009"
+    ],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual"
+    "visual_review": "rendered_pending_manual",
+    "rule_status": "source_transcribed"
   },
   {
     "entry_id": "KCC225",
