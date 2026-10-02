@@ -428,10 +428,10 @@
       104,
       105
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "source_general_scheme"
   },
   {
@@ -445,10 +445,10 @@
       106,
       107
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "source_general_scheme"
   },
   {
@@ -462,10 +462,10 @@
       108,
       109
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "source_general_scheme"
   },
   {
@@ -479,10 +479,10 @@
       110,
       111
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "source_general_scheme"
   },
   {
