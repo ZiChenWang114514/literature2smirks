@@ -638,6 +638,96 @@
         "product_only_maps": [],
         "status": "needs_review"
       }
+    },
+    {
+      "rule_id": "LSM-SRC-008",
+      "name": "Wittig olefination — phosphorane plus aldehyde",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[CH2:1]=[P:2]([c:3]1ccccc1)([c:4]1ccccc1)[c:5]1ccccc1.[CH:6](=[O:7])[CH3:8]>>[CH2:1]=[CH:6][CH3:8]",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          540,
+          541
+        ],
+        "printed_pages": [
+          486,
+          487
+        ],
+        "entry_id": "KCC243",
+        "scheme": "Wittig reaction general scheme, methylidene ylide plus aldehyde"
+      },
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "The rendered general scheme on printed page 486 shows a phosphorous ylide adding to an aldehyde or ketone to form an alkene with triphenylphosphine oxide extrusion; methylene triphenylphosphorane and acetaldehyde provide a deterministic replay.",
+      "conditions": {
+        "reagents": [
+          "base for ylide generation"
+        ],
+        "workup": null
+      },
+      "applicability": {
+        "reported_scope": [
+          "aldehydes and ketones with stabilized, semi-stabilized, or nonstabilized phosphorous ylides"
+        ],
+        "exclusions": [
+          "E/Z selectivity and ylide preparation are not encoded"
+        ],
+        "selectivity": []
+      },
+      "tests": [
+        {
+          "kind": "source_scheme_replay_with_constructed_R_group",
+          "status": "pass",
+          "reactants": [
+            "C=P(c1ccccc1)(c1ccccc1)c1ccccc1",
+            "CC=O"
+          ],
+          "products": [
+            "C=CC"
+          ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "C=P(c1ccccc1)(c1ccccc1)c1ccccc1",
+            "CC"
+          ],
+          "product_sets": 0
+        }
+      ],
+      "limitations": [
+        "The replay instantiates the generic R groups with methylene triphenylphosphorane and acetaldehyde; it is not claimed as a specific synthetic application substrate pair.",
+        "Phosphine oxide, counterions, stereochemical composition, and ylide generation are not represented."
+      ],
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "product_maps": [
+          1,
+          6,
+          8
+        ],
+        "unmapped_reactant_maps": [
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     }
   ]
 }
