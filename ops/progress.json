@@ -44,5 +44,7 @@
   "range_validation_positive_probes": 8,
   "range_validation_negative_probes": 6,
   "visual_review_complete": 250,
-  "visual_review_pending": 0
+  "visual_review_pending": 0,
+  "full_source_extraction_audited": true,
+  "named_reaction_visual_review_complete": true
 }
