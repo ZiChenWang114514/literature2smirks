@@ -1169,6 +1169,87 @@
         "product_only_maps": [],
         "status": "needs_review"
       }
+    },
+    {
+      "rule_id": "LSM-SRC-014",
+      "name": "Friedel–Crafts acylation — benzene plus acetyl chloride",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[cH:1]1ccccc1.[CH3:2][C:3](=[O:4])Cl>>[c:1]1ccccc1[C:3](=[O:4])[CH3:2]",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          230,
+          231
+        ],
+        "printed_pages": [
+          176,
+          177
+        ],
+        "entry_id": "KCC088",
+        "scheme": "Lewis-acid-mediated aromatic acylation general scheme"
+      },
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "The rendered general scheme on printed page 176 shows an aromatic substrate reacting with an acyl halide under Lewis-acid catalysis to form an aryl ketone; benzene and acetyl chloride provide a deterministic replay.",
+      "conditions": {
+        "reagents": [
+          "AlCl3 or other Lewis acid"
+        ],
+        "workup": "aqueous work-up"
+      },
+      "applicability": {
+        "reported_scope": [
+          "electron-rich aromatic and heteroaromatic substrates with acyl halides or anhydrides"
+        ],
+        "exclusions": [
+          "regioselectivity, polyacylation, catalyst stoichiometry, and deactivated rings are not encoded"
+        ],
+        "selectivity": []
+      },
+      "tests": [
+        {
+          "kind": "source_scheme_replay_with_constructed_R_group",
+          "status": "pass",
+          "reactants": [
+            "c1ccccc1",
+            "CC(=O)Cl"
+          ],
+          "products": [
+            "CC(=O)c1ccccc1"
+          ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "c1ccccc1",
+            "CC"
+          ],
+          "product_sets": 0
+        }
+      ],
+      "limitations": [
+        "The benzene/acetyl chloride pair is a constructed replay of the general scheme, not a claim about a particular synthetic application.",
+        "AlCl3, chloride, proton loss, work-up, regioselectivity and side reactions are omitted."
+      ],
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     }
   ]
 }
