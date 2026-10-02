@@ -1,0 +1,13 @@
+{
+  "stats": {
+    "rules": 116,
+    "source_page_evidence": 116,
+    "positive_controls": 116,
+    "negative_controls": 116,
+    "source_transcribed": 16,
+    "source_general_scheme": 100,
+    "strict_eligible": 45,
+    "needs_review": 71
+  },
+  "failures": []
+}

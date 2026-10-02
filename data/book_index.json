@@ -1158,9 +1158,12 @@
       195
     ],
     "reading_status": "reviewed_text_and_rendered",
-    "rule_ids": [],
+    "rule_ids": [
+      "LSM-SRC-016"
+    ],
     "text_review": "complete",
-    "visual_review": "complete"
+    "visual_review": "complete",
+    "rule_status": "source_transcribed"
   },
   {
     "entry_id": "KCC071",
