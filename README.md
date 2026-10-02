@@ -9,8 +9,8 @@ Literature2SMIRKS 面向需要把有机合成文献转成反应规则的研究�
 - 已固定并哈希输入书籍：816 页，250 个命名反应条目。
 - 已建立完整条目索引，覆盖 250 个命名反应章节，并保留 PDF 页码与印刷页码。
 - 已完成 816/816 页文本抽取检查，并记录书前导言、附录、参考文献和索引的页段覆盖。
-- 已建立前 100 条规则 demo scaffold；100/100 通过 RDKit 解析与正向 smoke test。
-- 当前 100 条已绑定书中对应章节的页码、文本哈希和通式证据定位，状态为 `source_general_scheme`。它们仍不是逐图底物转录；只有 `source_transcribed` 记录才代表已恢复的结构实例。
+- 已建立前 100 条规则 demo scaffold；100/100 通过 RDKit 解析与正向 smoke test。另有 6 条经页面核对的 `source_transcribed` 规则，合计 106 条规则通过逐条审计。
+- 当前 100 条 demo 规则绑定书中对应章节的页码、文本哈希和通式证据定位，状态为 `source_general_scheme`；另有 6 条 `source_transcribed` 实例记录了页面核对、正向回放和负向控制。demo 规则仍不是逐图底物转录。
 - 当前仍需对渲染页逐图补做人工结构核对，并继续补充 `source_transcribed` 实例、原子映射、立体化学和范围外匹配测试；`reading_completed` 保持为 `false`，不把文本覆盖当作逐图核验完成。
 
 ## 最小运行路径
@@ -32,6 +32,7 @@ data/rules/rules_demo.json     100 条可执行 demo 规则
 ops/prepare_source.py          固定输入并生成页级清单
 ops/read_source.py             按页读取或渲染源文件
 ops/validate_demo.py            RDKit 解析与回放 smoke test
+ops/audit_provenance.py         页码、证据等级、正负控制逐条审计
 docs/schema.md                 数据状态与证据语义
 private/                       本地源派生物，已 gitignore
 ```

@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "description": "源图核对中的第一条实例；其余条目仍在逐图转录。",
+  "description": "源图核对中的六条实例；其余条目仍在逐图转录。",
   "rules": [
     {
       "rule_id": "LSM-SRC-001",
@@ -351,6 +351,177 @@
         ],
         "unmapped_reactant_maps": [
           6
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "rule_id": "LSM-SRC-005",
+      "name": "Williamson ether synthesis — alkoxide plus primary haloalkane",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[O:1][CH2:2][CH3:3].[CH3:4][CH2:5][Cl:6]>>[O:1]([CH2:2][CH3:3])[CH2:5][CH3:4]",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          538,
+          539
+        ],
+        "printed_pages": [
+          484,
+          485
+        ],
+        "entry_id": "KCC242",
+        "scheme": "Williamson ether synthesis example: ethoxide plus ethyl chloride"
+      },
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "The rendered scheme on printed page 484 depicts ethoxide displacement of a primary haloalkane to give diethyl ether; the replay preserves that depicted small-molecule example.",
+      "conditions": {
+        "reagents": [
+          "alkoxide base/nucleophile",
+          "primary haloalkane"
+        ],
+        "workup": null
+      },
+      "applicability": {
+        "reported_scope": [
+          "primary alkyl halides or sulfonates with alkoxides/phenoxides"
+        ],
+        "exclusions": [
+          "tertiary electrophiles favor elimination; steric and competing nucleophiles are not encoded"
+        ],
+        "selectivity": []
+      },
+      "tests": [
+        {
+          "kind": "source_scheme_replay_with_constructed_R_group",
+          "status": "pass",
+          "reactants": [
+            "CCO",
+            "CCCl"
+          ],
+          "products": [
+            "CCOCC"
+          ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "CCO",
+            "C"
+          ],
+          "product_sets": 0
+        }
+      ],
+      "limitations": [
+        "The source example is represented as a minimal graph edit; chloride is deleted and counterions/solvent are omitted.",
+        "This is RDKit reaction SMARTS, not a claim of strict Daylight SMIRKS compliance."
+      ],
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          6
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "rule_id": "LSM-SRC-006",
+      "name": "Sonogashira coupling — aryl bromide plus terminal alkyne",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1][Br:2].[CH:3]#[CH:4]>>[c:1][C:3]#[CH:4]",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          478,
+          479
+        ],
+        "printed_pages": [
+          424,
+          425
+        ],
+        "entry_id": "KCC212",
+        "scheme": "Sonogashira cross-coupling general scheme"
+      },
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "The rendered general scheme on printed page 424 shows an aryl/vinyl halide coupled with a terminal alkyne under palladium/copper catalysis; bromobenzene plus acetylene is the deterministic R-group replay.",
+      "conditions": {
+        "reagents": [
+          "Pd catalyst",
+          "Cu co-catalyst",
+          "amine base"
+        ],
+        "workup": null
+      },
+      "applicability": {
+        "reported_scope": [
+          "aryl or vinyl halides with terminal alkynes"
+        ],
+        "exclusions": [
+          "aryl chlorides and hindered substrates may require specialized catalysts; homocoupling is not encoded"
+        ],
+        "selectivity": []
+      },
+      "tests": [
+        {
+          "kind": "source_scheme_replay_with_constructed_R_group",
+          "status": "pass",
+          "reactants": [
+            "Brc1ccccc1",
+            "C#C"
+          ],
+          "products": [
+            "C#Cc1ccccc1"
+          ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "Brc1ccccc1",
+            "CC"
+          ],
+          "product_sets": 0
+        }
+      ],
+      "limitations": [
+        "The book scheme is a general R-group transformation; bromobenzene/acetylene instantiates the generic groups for replay and is not claimed as a reported substrate pair.",
+        "Bromide is deleted; catalyst, base, and copper acetylide are not represented."
+      ],
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3,
+          4
+        ],
+        "unmapped_reactant_maps": [
+          2
         ],
         "product_only_maps": [],
         "status": "needs_review"
