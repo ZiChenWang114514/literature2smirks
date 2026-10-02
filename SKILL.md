@@ -26,7 +26,8 @@ metadata:
 4. 计算或人工复核断键、成键、键级和原子属性变化，再决定模板需要保留的局部环境。
 5. 先写窄的 instance template，再根据同一文献给出的底物范围抽象 literature template。文献外推单独标 `hypothesis`。
 6. 用 RDKit `ReactionFromSmarts` 解析并回放至少一个源转录实例；若只有通式，回放只能叫 `constructed_from_general_scheme`。
-7. 生成 JSONL/CSV 与人工审阅报告，报告规则状态：`source_transcribed`、`source_general_scheme`、`hypothesis`、`rejected`。
+7. 对代表性规则族运行近邻底物正例和明确非匹配反例，记录匹配边界；这些范围探针不替代实验范围验证。
+8. 生成 JSONL/CSV 与人工审阅报告，报告规则状态：`source_transcribed`、`source_general_scheme`、`hypothesis`、`rejected`。
 
 ## 最低记录字段
 
@@ -50,7 +51,7 @@ metadata:
 
 RDKit 的反应语法是由 SMARTS 派生的 reaction SMARTS；它不等同于严格 SMIRKS。对需严格 SMIRKS 的交付，额外检查 mapped atoms、显式氢、变化键的 SMILES 原子表达式以及反应物/产物 map 成对关系。对 RDKit 规则，检查 `RunReactants` 产生的产物、sanitize 状态、重复匹配和手性结果。立体中心应分别标注 retention、inversion、creation、loss 或 unspecified。
 
-运行 `ops/classify_dialect.py` 对反应物侧和产物侧 map 集合做结构 lint。存在被删除的 leaving-group map 时，规则可以继续作为 RDKit reaction SMARTS，但不得标为 `strict_smirks_eligible`。
+运行 `ops/classify_dialect.py` 对反应物侧和产物侧 map 集合做结构 lint；运行 `ops/validate_ranges.py` 对选定规则族进行近邻与越界匹配探针。存在被删除的 leaving-group map 时，规则可以继续作为 RDKit reaction SMARTS，但不得标为 `strict_smirks_eligible`。
 
 ## 输出组织
 
