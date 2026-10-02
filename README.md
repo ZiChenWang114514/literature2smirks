@@ -9,8 +9,8 @@ Literature2SMIRKS 面向需要把有机合成文献转成反应规则的研究�
 - 已固定并哈希输入书籍：816 页，250 个命名反应条目。
 - 已建立完整条目索引，覆盖 250 个命名反应章节，并保留 PDF 页码与印刷页码。
 - 已完成 816/816 页文本抽取检查，并记录书前导言、附录、参考文献和索引的页段覆盖。
-- 已建立前 100 条规则 demo scaffold；100/100 通过 RDKit 解析与正向 smoke test。另有 12 条经页面核对的 `source_transcribed` 规则，合计 112 条规则通过逐条审计。
-- 当前 100 条 demo 规则绑定书中对应章节的页码、文本哈希和通式证据定位，状态为 `source_general_scheme`；另有 12 条 `source_transcribed` 实例记录了页面核对、正向回放和负向控制。demo 规则仍不是逐图底物转录。
+- 已建立前 100 条规则 demo scaffold；100/100 通过 RDKit 解析与正向 smoke test。另有 13 条经页面核对的 `source_transcribed` 规则，合计 113 条规则通过逐条审计。
+- 当前 100 条 demo 规则绑定书中对应章节的页码、文本哈希和通式证据定位，状态为 `source_general_scheme`；另有 13 条 `source_transcribed` 实例记录了页面核对、正向回放和负向控制。demo 规则仍不是逐图底物转录。
 - 当前仍需对渲染页逐图补做人工结构核对，并继续补充 `source_transcribed` 实例、原子映射、立体化学和范围外匹配测试；`reading_completed` 保持为 `false`，不把文本覆盖当作逐图核验完成。
 
 ## 最小运行路径

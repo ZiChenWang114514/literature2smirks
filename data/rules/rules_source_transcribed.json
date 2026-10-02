@@ -1085,6 +1085,90 @@
         "product_only_maps": [],
         "status": "needs_review"
       }
+    },
+    {
+      "rule_id": "LSM-SRC-013",
+      "name": "Buchwald–Hartwig cross-coupling — aryl bromide amination",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1][Br:2].[NH2:3][c:4]>>[c:1][NH:3][c:4]",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          124,
+          125
+        ],
+        "printed_pages": [
+          70,
+          71
+        ],
+        "entry_id": "KCC035",
+        "scheme": "Pd-catalyzed aryl amination general scheme"
+      },
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "The rendered general scheme on printed page 70 shows an aryl halide and primary amine forming an aryl amine under Pd catalysis/base; bromobenzene and aniline provide a deterministic replay.",
+      "conditions": {
+        "reagents": [
+          "Pd catalyst",
+          "chelating phosphine ligand",
+          "strong base"
+        ],
+        "workup": null
+      },
+      "applicability": {
+        "reported_scope": [
+          "aryl halides/triflates with primary or secondary aliphatic/aromatic amines"
+        ],
+        "exclusions": [
+          "C–O coupling, catalyst/ligand selection, and chemoselectivity are not encoded"
+        ],
+        "selectivity": []
+      },
+      "tests": [
+        {
+          "kind": "source_scheme_replay_with_constructed_R_group",
+          "status": "pass",
+          "reactants": [
+            "Brc1ccccc1",
+            "Nc1ccccc1"
+          ],
+          "products": [
+            "c1ccc(Nc2ccccc2)cc1"
+          ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "Brc1ccccc1",
+            "CC"
+          ],
+          "product_sets": 0
+        }
+      ],
+      "limitations": [
+        "The aryl pair is a constructed replay of the generic scheme, not a claim about the complex synthetic applications on printed page 71.",
+        "Bromide, catalyst, ligand, base and salt by-products are omitted; the rule is RDKit reaction SMARTS rather than strict Daylight SMIRKS."
+      ],
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "product_maps": [
+          1,
+          3,
+          4
+        ],
+        "unmapped_reactant_maps": [
+          2
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     }
   ]
 }
