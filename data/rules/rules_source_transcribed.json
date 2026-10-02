@@ -526,6 +526,118 @@
         "product_only_maps": [],
         "status": "needs_review"
       }
+    },
+    {
+      "rule_id": "LSM-SRC-007",
+      "name": "Michael addition — ethyl cinnamate plus diethyl malonate",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[c:1][CH:2]=[CH:3][C:4](=[O:5])[O:6][CH2:7][CH3:8].[CH2:9]([C:10](=[O:11])[O:12][CH2:13][CH3:14])[C:15](=[O:16])[O:17][CH2:18][CH3:19]>>[c:1][CH:2]([CH:9]([C:10](=[O:11])[O:12][CH2:13][CH3:14])[C:15](=[O:16])[O:17][CH2:18][CH3:19])[CH2:3][C:4](=[O:5])[O:6][CH2:7][CH3:8]",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          340,
+          341
+        ],
+        "printed_pages": [
+          286,
+          287
+        ],
+        "entry_id": "KCC143",
+        "scheme": "Michael (1887) ethyl cinnamate plus diethyl malonate"
+      },
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "The rendered historical example on printed page 286 shows ethyl cinnamate reacting with diethyl malonate under sodium ethoxide in ethanol to give the beta-addition product; the encoded replay preserves the displayed carbon skeleton and three ester groups.",
+      "conditions": {
+        "reagents": [
+          "NaOEt",
+          "EtOH"
+        ],
+        "workup": null
+      },
+      "applicability": {
+        "reported_scope": [
+          "stabilized carbon nucleophiles adding to activated alkenes or alkynes"
+        ],
+        "exclusions": [
+          "regioselectivity, protonation state, and competing 1,2-addition are not encoded"
+        ],
+        "selectivity": []
+      },
+      "tests": [
+        {
+          "kind": "source_scheme_replay_with_constructed_R_group",
+          "status": "pass",
+          "reactants": [
+            "CCOC(=O)/C=C/c1ccccc1",
+            "CCOC(=O)CC(=O)OCC"
+          ],
+          "products": [
+            "CCOC(=O)CC(c1ccccc1)C(C(=O)OCC)C(=O)OCC"
+          ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "CCOC(=O)/C=C/c1ccccc1",
+            "CC"
+          ],
+          "product_sets": 0
+        }
+      ],
+      "limitations": [
+        "The rule encodes the single historical example and omits sodium ethoxide, ethanol, proton-transfer steps, and stereochemical mixture.",
+        "This is RDKit reaction SMARTS; strict SMIRKS dialect review remains separate."
+      ],
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     }
   ]
 }

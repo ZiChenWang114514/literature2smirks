@@ -1,0 +1,25 @@
+{
+  "files": {
+    "rules_demo.json": {
+      "total": 100,
+      "parse_pass": 100,
+      "parse_fail": 0,
+      "evidence_status": {
+        "source_general_scheme": 100
+      }
+    },
+    "rules_source_transcribed.json": {
+      "total": 7,
+      "parse_pass": 7,
+      "parse_fail": 0,
+      "evidence_status": {
+        "source_transcribed": 7
+      }
+    }
+  },
+  "source_transcribed_replays": 7,
+  "failures": [],
+  "rules_total": 107,
+  "parse_pass": 107,
+  "parse_fail": 0
+}

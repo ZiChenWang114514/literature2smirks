@@ -2321,9 +2321,12 @@
       341
     ],
     "reading_status": "reviewed_text_and_rendered",
-    "rule_ids": [],
+    "rule_ids": [
+      "LSM-SRC-007"
+    ],
     "text_review": "complete",
-    "visual_review": "complete"
+    "visual_review": "complete",
+    "rule_status": "source_transcribed"
   },
   {
     "entry_id": "KCC144",
@@ -3425,9 +3428,12 @@
       479
     ],
     "reading_status": "reviewed_text_and_rendered",
-    "rule_ids": [],
+    "rule_ids": [
+      "LSM-SRC-006"
+    ],
     "text_review": "complete",
-    "visual_review": "complete"
+    "visual_review": "complete",
+    "rule_status": "source_transcribed"
   },
   {
     "entry_id": "KCC213",
@@ -3905,9 +3911,12 @@
       539
     ],
     "reading_status": "reviewed_text_and_rendered",
-    "rule_ids": [],
+    "rule_ids": [
+      "LSM-SRC-005"
+    ],
     "text_review": "complete",
-    "visual_review": "complete"
+    "visual_review": "complete",
+    "rule_status": "source_transcribed"
   },
   {
     "entry_id": "KCC243",
