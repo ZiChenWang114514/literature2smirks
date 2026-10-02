@@ -13,13 +13,12 @@
   "github_pushed": true,
   "readme_verified": true,
   "next_actions": [
-    "逐批完成渲染页的结构人工核对并把可确认条目升级为 complete",
-    "把更多通式规则转录为 source_transcribed 实例并补做文献回放",
+    "对剩余未转录的通式继续补充 source_transcribed 实例",
     "扩展映射、立体化学和范围外反例审计",
     "使用真实论文/应用示例重复 Literature2SMIRKS 工作流",
     "在保持证据等级的前提下继续完善 README 与 skill 文档"
   ],
-  "last_update": "2026-10-02",
+  "last_update": "2026-10-03",
   "source_inventory_complete": true,
   "demo_validation": "100/100 RDKit parser_and_smoke pass; RDKit unmapped leaving-group warnings retained for review",
   "source_transcribed_replays": 16,
