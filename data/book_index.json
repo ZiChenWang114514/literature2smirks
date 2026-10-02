@@ -186,10 +186,10 @@
       76,
       77
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "constructed_from_general_scheme"
   },
   {
@@ -222,10 +222,10 @@
       80,
       81
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "constructed_from_general_scheme"
   },
   {
@@ -258,10 +258,10 @@
       84,
       85
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "constructed_from_general_scheme"
   },
   {
@@ -275,10 +275,10 @@
       86,
       87
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "constructed_from_general_scheme"
   },
   {
@@ -292,10 +292,10 @@
       88,
       89
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "constructed_from_general_scheme"
   },
   {
@@ -309,10 +309,10 @@
       90,
       91
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "constructed_from_general_scheme"
   },
   {
@@ -326,10 +326,10 @@
       92,
       93
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "constructed_from_general_scheme"
   },
   {
@@ -343,10 +343,10 @@
       94,
       95
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "constructed_from_general_scheme"
   },
   {

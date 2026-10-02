@@ -44,6 +44,6 @@
   "range_validation_rule_families": 3,
   "range_validation_positive_probes": 8,
   "range_validation_negative_probes": 6,
-  "visual_review_complete": 205,
-  "visual_review_pending": 45
+  "visual_review_complete": 209,
+  "visual_review_pending": 41
 }
