@@ -816,6 +816,97 @@
         "product_only_maps": [],
         "status": "needs_review"
       }
+    },
+    {
+      "rule_id": "LSM-SRC-010",
+      "name": "Mitsunobu reaction — alcohol esterification with carboxylic acid",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[CH3:1][CH2:2][OH:3].[c:4][C:5](=[O:6])[OH:7]>>[c:4][C:5](=[O:6])[O:7][CH2:2][CH3:1]",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          348,
+          349
+        ],
+        "printed_pages": [
+          294,
+          295
+        ],
+        "entry_id": "KCC147",
+        "scheme": "Mitsunobu alcohol plus carboxylic acid esterification"
+      },
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "The rendered general scheme on printed page 294 explicitly shows an alcohol and carboxylic acid converted to an ester under phosphine/azodicarboxylate conditions; ethanol and benzoic acid are used for deterministic replay.",
+      "conditions": {
+        "reagents": [
+          "trialkyl or triaryl phosphine",
+          "dialkyl azodicarboxylate"
+        ],
+        "workup": null
+      },
+      "applicability": {
+        "reported_scope": [
+          "primary and secondary alcohols with acidic O-, N-, S- or C-nucleophiles"
+        ],
+        "exclusions": [
+          "inversion, stereochemical configuration, and reagent by-products are not encoded in this minimal acyclic replay"
+        ],
+        "selectivity": [
+          "secondary alcohols generally undergo inversion"
+        ]
+      },
+      "tests": [
+        {
+          "kind": "source_scheme_replay_with_constructed_R_group",
+          "status": "pass",
+          "reactants": [
+            "CCO",
+            "O=C(O)c1ccccc1"
+          ],
+          "products": [
+            "CCOC(=O)c1ccccc1"
+          ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "CCO",
+            "CC"
+          ],
+          "product_sets": 0
+        }
+      ],
+      "limitations": [
+        "The source scheme is general; ethanol/benzoic acid instantiate the R groups and do not claim to reproduce a particular reported experiment.",
+        "Triphenylphosphine, azodicarboxylate, water/hydrazine by-products, and stereochemical inversion are omitted."
+      ],
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "product_maps": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "unmapped_reactant_maps": [
+          3
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     }
   ]
 }

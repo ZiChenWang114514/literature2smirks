@@ -2388,9 +2388,12 @@
       349
     ],
     "reading_status": "reviewed_text_and_rendered",
-    "rule_ids": [],
+    "rule_ids": [
+      "LSM-SRC-010"
+    ],
     "text_review": "complete",
-    "visual_review": "complete"
+    "visual_review": "complete",
+    "rule_status": "source_transcribed"
   },
   {
     "entry_id": "KCC148",
