@@ -907,6 +907,95 @@
         "product_only_maps": [],
         "status": "needs_review"
       }
+    },
+    {
+      "rule_id": "LSM-SRC-011",
+      "name": "Grignard reaction — organomagnesium addition to a ketone",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[C:1](=[O:2])([CH3:3])[CH3:4].[CH3:5][Mg:6][Br:7]>>[C:1]([OH:2])([CH3:3])([CH3:4])[CH3:5]",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          242,
+          243
+        ],
+        "printed_pages": [
+          188,
+          189
+        ],
+        "entry_id": "KCC094",
+        "scheme": "Grignard reagent addition to carbonyl compound"
+      },
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "The rendered general scheme on printed page 188 explicitly shows one equivalent of R–MgX adding to a ketone to give a tertiary alcohol after work-up; acetone and methylmagnesium bromide provide a deterministic replay.",
+      "conditions": {
+        "reagents": [
+          "organomagnesium halide",
+          "aqueous or acidic work-up"
+        ],
+        "workup": "protonation of alkoxide"
+      },
+      "applicability": {
+        "reported_scope": [
+          "aldehydes and ketones; one or two equivalents determine secondary or tertiary alcohol formation"
+        ],
+        "exclusions": [
+          "acidic functional groups, moisture, and stereochemical/diastereoselective effects are not encoded"
+        ],
+        "selectivity": []
+      },
+      "tests": [
+        {
+          "kind": "source_scheme_replay_with_constructed_R_group",
+          "status": "pass",
+          "reactants": [
+            "CC(=O)C",
+            "C[Mg]Br"
+          ],
+          "products": [
+            "CC(C)(C)O"
+          ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "CC(=O)C",
+            "CC"
+          ],
+          "product_sets": 0
+        }
+      ],
+      "limitations": [
+        "The substrate pair is a constructed minimal replay of the general scheme, not a claim about a specific total-synthesis example on printed page 189.",
+        "Magnesium bromide, solvent, work-up, side reactions, and stereochemical outcome are not represented."
+      ],
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmapped_reactant_maps": [
+          6,
+          7
+        ],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     }
   ]
 }
