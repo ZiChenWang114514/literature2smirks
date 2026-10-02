@@ -28,8 +28,8 @@
     501
   ],
   "rules_total_audited": 116,
-  "strict_smirks_eligible_lint": 45,
-  "strict_smirks_needs_review": 71,
+  "strict_smirks_eligible_lint": 49,
+  "strict_smirks_needs_review": 67,
   "remote_commit": "c302027cfe598b06bee9f871e7035a4a13da04b6",
   "front_matter_reviewed_pdf_pages": [
     1,

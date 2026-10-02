@@ -590,7 +590,7 @@
         "The rule encodes the single historical example and omits sodium ethoxide, ethanol, proton-transfer steps, and stereochemical mixture.",
         "This is RDKit reaction SMARTS; strict SMIRKS dialect review remains separate."
       ],
-      "strict_smirks_eligible": false,
+      "strict_smirks_eligible": true,
       "strict_smirks_lint": {
         "reactant_maps": [
           1,
@@ -636,7 +636,7 @@
         ],
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
-        "status": "needs_review"
+        "status": "pass"
       }
     },
     {
@@ -1061,7 +1061,7 @@
         "The acetone/benzaldehyde pair is a constructed replay of the general scheme, not a claim about a particular reported substrate pair.",
         "Only the beta-hydroxycarbonyl addition product is represented; dehydration to the alpha,beta-unsaturated carbonyl and stereochemical outcome are omitted."
       ],
-      "strict_smirks_eligible": false,
+      "strict_smirks_eligible": true,
       "strict_smirks_lint": {
         "reactant_maps": [
           1,
@@ -1083,7 +1083,7 @@
         ],
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
-        "status": "needs_review"
+        "status": "pass"
       }
     },
     {
@@ -1232,7 +1232,7 @@
         "The benzene/acetyl chloride pair is a constructed replay of the general scheme, not a claim about a particular synthetic application.",
         "AlCl3, chloride, proton loss, work-up, regioselectivity and side reactions are omitted."
       ],
-      "strict_smirks_eligible": false,
+      "strict_smirks_eligible": true,
       "strict_smirks_lint": {
         "reactant_maps": [
           1,
@@ -1248,7 +1248,7 @@
         ],
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
-        "status": "needs_review"
+        "status": "pass"
       }
     },
     {
@@ -1400,7 +1400,7 @@
         "The unsubstituted diene/alkene pair is a constructed minimal replay of the general scheme, not a claim about a specific synthetic application.",
         "Only connectivity is encoded; concerted mechanism, endo/exo selectivity, regioselectivity and stereochemistry are omitted."
       ],
-      "strict_smirks_eligible": false,
+      "strict_smirks_eligible": true,
       "strict_smirks_lint": {
         "reactant_maps": [
           1,
@@ -1420,7 +1420,7 @@
         ],
         "unmapped_reactant_maps": [],
         "product_only_maps": [],
-        "status": "needs_review"
+        "status": "pass"
       }
     }
   ]

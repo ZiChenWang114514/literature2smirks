@@ -1,0 +1,66 @@
+{
+  "rules": 116,
+  "strict_smirks_eligible": 49,
+  "needs_review": 67,
+  "examples_needing_review": [
+    [
+      "LSM-001",
+      false,
+      [
+        3
+      ]
+    ],
+    [
+      "LSM-003",
+      false,
+      [
+        4
+      ]
+    ],
+    [
+      "LSM-004",
+      false,
+      [
+        4
+      ]
+    ],
+    [
+      "LSM-005",
+      false,
+      [
+        4
+      ]
+    ],
+    [
+      "LSM-008",
+      false,
+      [
+        2
+      ]
+    ],
+    [
+      "LSM-009",
+      false,
+      [
+        2,
+        4
+      ]
+    ],
+    [
+      "LSM-012",
+      false,
+      [
+        2,
+        4
+      ]
+    ],
+    [
+      "LSM-013",
+      false,
+      [
+        2,
+        4
+      ]
+    ]
+  ]
+}
