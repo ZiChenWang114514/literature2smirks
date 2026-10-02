@@ -32,5 +32,15 @@
   "rules_total_audited": 104,
   "strict_smirks_eligible_lint": 45,
   "strict_smirks_needs_review": 59,
-  "remote_commit": "c302027cfe598b06bee9f871e7035a4a13da04b6"
+  "remote_commit": "c302027cfe598b06bee9f871e7035a4a13da04b6",
+  "front_matter_reviewed_pdf_pages": [
+    1,
+    55
+  ],
+  "appendix_reviewed_pdf_pages": [
+    556,
+    816
+  ],
+  "source_text_extraction_complete": true,
+  "named_reaction_index_complete": true
 }
