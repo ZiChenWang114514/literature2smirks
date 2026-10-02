@@ -64,10 +64,12 @@
       63
     ],
     "reading_status": "indexed",
-    "rule_ids": [],
+    "rule_ids": [
+      "LSM-SRC-012"
+    ],
     "visual_review": "complete",
     "text_review": "complete",
-    "rule_status": "constructed_from_general_scheme"
+    "rule_status": "source_transcribed"
   },
   {
     "entry_id": "KCC005",

@@ -996,6 +996,95 @@
         "product_only_maps": [],
         "status": "needs_review"
       }
+    },
+    {
+      "rule_id": "LSM-SRC-012",
+      "name": "Aldol reaction — ketone enolate addition to an aldehyde",
+      "dialect": "rdkit_reaction_smarts",
+      "reaction_smarts": "[CH3:1][C:2](=[O:3])[CH3:4].[c:5][CH:6]=[O:7]>>[CH3:1][C:2](=[O:3])[CH2:4][CH:6]([OH:7])[c:5]",
+      "source": {
+        "book": "Strategic Applications of Named Reactions in Organic Synthesis",
+        "authors": "Laszlo Kurti; Barbara Czako",
+        "pdf_pages": [
+          62,
+          63
+        ],
+        "printed_pages": [
+          8,
+          9
+        ],
+        "entry_id": "KCC004",
+        "scheme": "classical aldol addition of ketone enolate to aldehyde"
+      },
+      "evidence_status": "source_transcribed",
+      "structure_evidence": "The rendered general scheme on printed page 8 shows an enolate or carbonyl donor adding to an aldehyde/ketone to give a beta-hydroxycarbonyl compound before optional dehydration; acetone and benzaldehyde provide a deterministic replay.",
+      "conditions": {
+        "reagents": [
+          "acid or base catalyst"
+        ],
+        "workup": "aqueous work-up"
+      },
+      "applicability": {
+        "reported_scope": [
+          "aldehydes and ketones; preformed enolates and several metal enolates"
+        ],
+        "exclusions": [
+          "dehydration, enolate geometry, diastereoselectivity, and competing self-condensation are not encoded"
+        ],
+        "selectivity": [
+          "E/Z enolate geometry can affect syn/anti ratio"
+        ]
+      },
+      "tests": [
+        {
+          "kind": "source_scheme_replay_with_constructed_R_group",
+          "status": "pass",
+          "reactants": [
+            "CC(=O)C",
+            "O=Cc1ccccc1"
+          ],
+          "products": [
+            "CC(=O)CC(O)c1ccccc1"
+          ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "CC(=O)C",
+            "CC"
+          ],
+          "product_sets": 0
+        }
+      ],
+      "limitations": [
+        "The acetone/benzaldehyde pair is a constructed replay of the general scheme, not a claim about a particular reported substrate pair.",
+        "Only the beta-hydroxycarbonyl addition product is represented; dehydration to the alpha,beta-unsaturated carbonyl and stereochemical outcome are omitted."
+      ],
+      "strict_smirks_eligible": false,
+      "strict_smirks_lint": {
+        "reactant_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "product_maps": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "unmapped_reactant_maps": [],
+        "product_only_maps": [],
+        "status": "needs_review"
+      }
     }
   ]
 }
