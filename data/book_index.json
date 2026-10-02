@@ -513,10 +513,10 @@
       114,
       115
     ],
-    "reading_status": "indexed",
+    "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual",
+    "visual_review": "complete",
     "rule_status": "source_general_scheme"
   },
   {
@@ -549,7 +549,7 @@
     "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual"
+    "visual_review": "complete"
   },
   {
     "entry_id": "KCC033",
@@ -581,7 +581,7 @@
     "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual"
+    "visual_review": "complete"
   },
   {
     "entry_id": "KCC035",
@@ -616,7 +616,7 @@
     "reading_status": "reviewed_text_and_rendered",
     "rule_ids": [],
     "text_review": "complete",
-    "visual_review": "rendered_pending_manual"
+    "visual_review": "complete"
   },
   {
     "entry_id": "KCC037",
