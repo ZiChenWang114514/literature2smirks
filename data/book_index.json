@@ -1808,8 +1808,10 @@
       276,
       277
     ],
-    "reading_status": "indexed",
-    "rule_ids": []
+    "reading_status": "reviewed_text_and_rendered",
+    "rule_ids": [],
+    "text_review": "complete",
+    "visual_review": "complete"
   },
   {
     "entry_id": "KCC112",
@@ -1822,8 +1824,10 @@
       278,
       279
     ],
-    "reading_status": "indexed",
-    "rule_ids": []
+    "reading_status": "reviewed_text_and_rendered",
+    "rule_ids": [],
+    "text_review": "complete",
+    "visual_review": "rendered_pending_manual"
   },
   {
     "entry_id": "KCC113",
@@ -1836,8 +1840,10 @@
       280,
       281
     ],
-    "reading_status": "indexed",
-    "rule_ids": []
+    "reading_status": "reviewed_text_and_rendered",
+    "rule_ids": [],
+    "text_review": "complete",
+    "visual_review": "complete"
   },
   {
     "entry_id": "KCC114",
@@ -1850,8 +1856,10 @@
       282,
       283
     ],
-    "reading_status": "indexed",
-    "rule_ids": []
+    "reading_status": "reviewed_text_and_rendered",
+    "rule_ids": [],
+    "text_review": "complete",
+    "visual_review": "rendered_pending_manual"
   },
   {
     "entry_id": "KCC115",
@@ -1864,8 +1872,10 @@
       284,
       285
     ],
-    "reading_status": "indexed",
-    "rule_ids": []
+    "reading_status": "reviewed_text_and_rendered",
+    "rule_ids": [],
+    "text_review": "complete",
+    "visual_review": "rendered_pending_manual"
   },
   {
     "entry_id": "KCC116",
@@ -1878,8 +1888,10 @@
       286,
       287
     ],
-    "reading_status": "indexed",
-    "rule_ids": []
+    "reading_status": "reviewed_text_and_rendered",
+    "rule_ids": [],
+    "text_review": "complete",
+    "visual_review": "rendered_pending_manual"
   },
   {
     "entry_id": "KCC117",
@@ -1892,8 +1904,10 @@
       288,
       289
     ],
-    "reading_status": "indexed",
-    "rule_ids": []
+    "reading_status": "reviewed_text_and_rendered",
+    "rule_ids": [],
+    "text_review": "complete",
+    "visual_review": "rendered_pending_manual"
   },
   {
     "entry_id": "KCC118",
@@ -1906,8 +1920,10 @@
       290,
       291
     ],
-    "reading_status": "indexed",
-    "rule_ids": []
+    "reading_status": "reviewed_text_and_rendered",
+    "rule_ids": [],
+    "text_review": "complete",
+    "visual_review": "rendered_pending_manual"
   },
   {
     "entry_id": "KCC119",
@@ -1920,8 +1936,10 @@
       292,
       293
     ],
-    "reading_status": "indexed",
-    "rule_ids": []
+    "reading_status": "reviewed_text_and_rendered",
+    "rule_ids": [],
+    "text_review": "complete",
+    "visual_review": "complete"
   },
   {
     "entry_id": "KCC120",
@@ -1934,8 +1952,10 @@
       294,
       295
     ],
-    "reading_status": "indexed",
-    "rule_ids": []
+    "reading_status": "reviewed_text_and_rendered",
+    "rule_ids": [],
+    "text_review": "complete",
+    "visual_review": "rendered_pending_manual"
   },
   {
     "entry_id": "KCC121",

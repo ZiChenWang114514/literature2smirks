@@ -21,13 +21,13 @@
     "Write skill from observed failure modes and repeat the demonstration",
     "Beautify Chinese README, verify repository contents, push and verify remote"
   ],
-  "last_update": "2026-09-22",
+  "last_update": "2026-10-02",
   "source_inventory_complete": true,
   "demo_validation": "100/100 RDKit parser_and_smoke pass; RDKit unmapped leaving-group warnings retained for review",
   "source_transcribed_replays": 4,
   "source_reviewed_printed_pages": [
     2,
-    221
+    241
   ],
   "rules_total_audited": 104,
   "strict_smirks_eligible_lint": 45,
