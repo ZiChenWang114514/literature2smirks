@@ -49,6 +49,15 @@
           "products": [
             "CCC(C(C)=O)C(=O)OC"
           ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "CC(=O)CC(=O)OC",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "limitations": [
@@ -134,6 +143,15 @@
           "products": [
             "CCP(=O)(OC)OC"
           ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "COP(OC)OC",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "limitations": [
@@ -217,6 +235,15 @@
           "products": [
             "CC(C)=N"
           ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "N=P",
+            "CC"
+          ],
+          "product_sets": 0
         }
       ],
       "limitations": [
@@ -291,6 +318,15 @@
           "products": [
             "COC(C)=O"
           ]
+        },
+        {
+          "kind": "negative_control",
+          "status": "pass",
+          "reactants": [
+            "CC(=O)C",
+            "C"
+          ],
+          "product_sets": 0
         }
       ],
       "limitations": [
