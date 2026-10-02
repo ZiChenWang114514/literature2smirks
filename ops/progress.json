@@ -40,5 +40,8 @@
     816
   ],
   "source_text_extraction_complete": true,
-  "named_reaction_index_complete": true
+  "named_reaction_index_complete": true,
+  "range_validation_rule_families": 3,
+  "range_validation_positive_probes": 8,
+  "range_validation_negative_probes": 6
 }

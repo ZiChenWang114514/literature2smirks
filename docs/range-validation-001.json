@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.1",
+  "description": "Near-neighbor reaction SMARTS coverage probes; not experimental scope claims.",
+  "rules": [
+    {
+      "rule_id": "LSM-SRC-001",
+      "positive": [
+        {
+          "reactants": [
+            "CC(=O)CC(=O)OC",
+            "CCBr"
+          ],
+          "product_sets": 1,
+          "pass": true
+        },
+        {
+          "reactants": [
+            "CC(=O)CC(=O)OC",
+            "CCCBr"
+          ],
+          "product_sets": 1,
+          "pass": true
+        }
+      ],
+      "negative": [
+        {
+          "reactants": [
+            "CC(=O)CC(=O)OC",
+            "CC"
+          ],
+          "product_sets": 0,
+          "pass": true
+        },
+        {
+          "reactants": [
+            "CC(=O)CC(=O)OC",
+            "c1ccccc1Br"
+          ],
+          "product_sets": 0,
+          "pass": true
+        }
+      ],
+      "positive_pass": true,
+      "negative_pass": true
+    },
+    {
+      "rule_id": "LSM-SRC-009",
+      "positive": [
+        {
+          "reactants": [
+            "OB(O)c1ccccc1",
+            "Brc1ccccc1"
+          ],
+          "product_sets": 2,
+          "pass": true
+        },
+        {
+          "reactants": [
+            "OB(O)c1ccc(C)cc1",
+            "Brc1ccccc1"
+          ],
+          "product_sets": 2,
+          "pass": true
+        },
+        {
+          "reactants": [
+            "OB(O)c1ccccc1",
+            "Brc1ccc(C)cc1"
+          ],
+          "product_sets": 2,
+          "pass": true
+        }
+      ],
+      "negative": [
+        {
+          "reactants": [
+            "OB(O)c1ccccc1",
+            "CC"
+          ],
+          "product_sets": 0,
+          "pass": true
+        },
+        {
+          "reactants": [
+            "CC",
+            "Brc1ccccc1"
+          ],
+          "product_sets": 0,
+          "pass": true
+        }
+      ],
+      "positive_pass": true,
+      "negative_pass": true
+    },
+    {
+      "rule_id": "LSM-SRC-015",
+      "positive": [
+        {
+          "reactants": [
+            "Brc1ccccc1",
+            "C=C"
+          ],
+          "product_sets": 2,
+          "pass": true
+        },
+        {
+          "reactants": [
+            "COc1ccc(Br)cc1",
+            "C=C"
+          ],
+          "product_sets": 2,
+          "pass": true
+        },
+        {
+          "reactants": [
+            "Brc1ccc(C)cc1",
+            "C=C"
+          ],
+          "product_sets": 2,
+          "pass": true
+        }
+      ],
+      "negative": [
+        {
+          "reactants": [
+            "Brc1ccccc1",
+            "CC"
+          ],
+          "product_sets": 0,
+          "pass": true
+        },
+        {
+          "reactants": [
+            "CC",
+            "C=C"
+          ],
+          "product_sets": 0,
+          "pass": true
+        }
+      ],
+      "positive_pass": true,
+      "negative_pass": true
+    }
+  ]
+}
